@@ -4,7 +4,6 @@ TODO:
 - [ ] table for users 
 - [ ] normalization (if needed)
 
-also sorry for bad words used in some lyrics, its american rap, source for lyrics: genius.com
 
 ```
 CREATE DATABASE LyricsWorld
