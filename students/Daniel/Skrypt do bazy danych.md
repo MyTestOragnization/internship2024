@@ -61,17 +61,17 @@ INSERT INTO dbo.Artists ([ArtistName],[ArtistDescription],[ArtistPhoto]) VALUES 
 INSERT INTO [dbo].[Artists] ([ArtistName],[ArtistDescription],[ArtistPhoto]) VALUES ('DC The Don','Daijon Cotty Davis (born August 3, 1999), known professionally as DC the Don, is an American rapper, singer, and songwriter from Milwaukee, Wisconsin. He is recognized for mixing elements of hip-hop, rock, and melodic rap in his music.','none');
 
 INSERT INTO dbo.Songs([SongTitle],[SongDuration],[SongLyrics]) VALUES ('2HIGH2TELL',160, '[Intro]|
-Fuck it, I''m all alone|
+f*ck it, I''m all alone|
 |
 [Chorus]|
 Uh, Killjoy playin'' in my head like white noise|
-Look around, point ''em out, fuck it, I''m all alone|
+Look around, point ''em out, f*ck it, I''m all alone|
 (Woah, oh, woah, oh, oh)|
 Uh, our past played out, push it out, push it out|
-Runnin'' out of time, so fuck it, I''m all alone (All alone)|
+Runnin'' out of time, so f*ck it, I''m all alone (All alone)|
 If you take my heart, don''t thrash it up|
-And my head, sometimes feel bad as fuck|
-Why cry? I just can''t give no fuck|
+And my head, sometimes feel bad as f*ck|
+Why cry? I just can''t give no f*ck|
 They all lie, I just can''t hear my thoughts|
 Slow down, life gets sad as hell|
 Oh, well, I''m too high to tell, oh, yeah|
@@ -84,14 +84,14 @@ So shawty keep on tellin'' me she proud of m?|
 |
 [Chorus]|
 Uh, Killjoy playin'' in my head like white noise|
-Look around, point ''em out, fuck it, I''m all alone (La-da-da-da-da)|
-(Fuck it, I''m all alone)|
+Look around, point ''em out, f*ck it, I''m all alone (La-da-da-da-da)|
+(f*ck it, I''m all alone)|
 Uh, our past played out, push it out, push it out|
-Runnin'' out of time, so fuck it, I''m all alone (Oh, oh, oh, all alone)|
+Runnin'' out of time, so f*ck it, I''m all alone (Oh, oh, oh, all alone)|
 (Oh, oh)|
 If you take my heart, don''t thrash it up|
-And my head, sometimes feel bad as fuck (Oh-oh-oh)|
-Why cry? I just can''t give no fuck|
+And my head, sometimes feel bad as f*ck (Oh-oh-oh)|
+Why cry? I just can''t give no f*ck|
 They all lie, I just can''t hear my thoughts (Oh-oh-oh)|
 Slow down (Ooh), life gets sad as hell (Gets sad as hell)|
 Oh, well, I''m too high to tell, oh, yeah (Oh-oh-woah)|
@@ -104,14 +104,14 @@ No matter what you do, just know it always could be worse (Oh, oh, woah)|
 |
 [Chorus]|
 Uh, Killjoy playin'' in my head like white noise|
-Look around, point ''em out, fuck it, I''m all alone (Fuck it, I''m all alone)|
+Look around, point ''em out, f*ck it, I''m all alone (f*ck it, I''m all alone)|
 (Oh, oh)|
 Uh, our past played out, push it out, push it out|
-Runnin'' out of time (Push it out), so fuck it, I''m all alone|
+Runnin'' out of time (Push it out), so f*ck it, I''m all alone|
 (Woah, woah, woah, ah-ah-ah)|
 If you take my heart, don''t thrash it up|
-And my head, sometimes feel bad as fuck|
-Why cry? I just can''t give no fuck|
+And my head, sometimes feel bad as f*ck|
+Why cry? I just can''t give no f*ck|
 They all lie, I just can''t hear my thoughts (Oh-oh-oh)|
 Slow down (Ooh), life gets sad as hell (Ah, ah)|
 Oh, well, I''m too high to tell, oh, yeah (Woah)|'),
@@ -121,7 +121,7 @@ Oh, well, I''m too high to tell, oh, yeah (Woah)|'),
 |
 [Chorus]|
 She got hatred in her veins, but she don''t really care|
-I just left my peace of mind, I fucked her good, I had lil'' shawty screamin'', "Whoo-sah!"|
+I just left my peace of mind, I f*cked her good, I had lil'' shawty screamin'', "Whoo-sah!"|
 And I won''t see you for a while (And I won''t see you for a while)|
 When I''m down, I sing our song and sip on codeine ''til I drown (Sip on codeine ''til I drown)|
 I''m a rockstar, I''m not too sure why you''re around (Sure why you''re around)|
@@ -142,7 +142,7 @@ Who got my back when it ain''t no one here? (No one here)|
 |
 [Chorus]|
 She got hatred in her veins, but she don''t really care|
-I just left my peace of mind, I fucked her good, I had lil'' shawty screamin'', "Whoo-sah!"|
+I just left my peace of mind, I f*cked her good, I had lil'' shawty screamin'', "Whoo-sah!"|
 And I won''t see you for a while (And I won''t see you for a while)|
 When I''m down, I sing our song and sip on codeine ''til I drown (Sip on codeine ''til I drown)|
 I''m a rockstar, I''m not too sure why you''re around (Sure why you''re around)|
@@ -194,7 +194,7 @@ It was you that never wanted me and you to give up, do-do-do|
 Smokin'' heavy, finna go up|
 It''s not a worry in my mind when you be with me or by my side|
 Feel like throwin'' my feelings up|
-When you here with me, baby, I don''t give a fuck, you my ride or die|
+When you here with me, baby, I don''t give a f*ck, you my ride or die|
 But still ride|
 Or die tryin''|
 You all mine (Do-do-do-do)|
@@ -256,7 +256,7 @@ Ooh-uh-uh-uh|
 |
 [Chorus]|
 Uh, be with me forever, it''ll be perfect if you stay|
-The drugs been holdin'' me together like I''m finally wide awake|
+The dr**s been holdin'' me together like I''m finally wide awake|
 It''s just me and you together in this fantasy of mine|
 I can''t believe it only took one time (One time)|
 I can''t believe it only took one time (One time)|
@@ -268,9 +268,9 @@ I don''t think I got no mor? tries, uh (More tries)|
 Oh wow, I''m so sorry, I just don''t care to stay for the bullshit|
 I ran up my money, looped it|
 Broke whore tellin'' me rich delusions|
-I know I''m not sorry, fuck it|
+I know I''m not sorry, f*ck it|
 I''m happiest when smokin'' ruckus|
-This bitch wanna take my soul and I don''t know if I can trust it|
+This b*tch wanna take my soul and I don''t know if I can trust it|
 Down for the calls, is you playin'' your role?|
 I have vivid dreams of bein'' trapped inside your memories|
 I''m on new Balenciaga jeans and all the pretty things|
@@ -284,7 +284,7 @@ If you adore me, tell me now, now, now, now|
 |
 [Chorus]|
 Uh, be with me forever, it''ll be perfect if you stay|
-The drugs been holdin'' me together like I''m finally wide awake|
+The dr**s been holdin'' me together like I''m finally wide awake|
 It''s just me and you together in this fantasy of mine|
 I can''t believe it only took one time (One time)|
 I can''t believe it only took one time (One time)|
@@ -295,7 +295,7 @@ I don''t think I got no more tries, uh (More tries)|
 [Verse 2]|
 I can''t believe you let our real love die (Die, die, die)|
 She can''t believe I move around this high (This high, high)|
-I can''t believe the drugs don''t work no more (More, more, more)|
+I can''t believe the dr**s don''t work no more (More, more, more)|
 But I''ve been wildin'' out, so I see why (Why, why, why, why, why)|
 Be with me forever like you need it everyday|
 I''ve still been holdin'' on forever like we''ll never go away|
@@ -309,7 +309,7 @@ If you adore me, tell me now, now, now, now|
 |
 [Chorus]|
 Uh, be with me forever, it''ll be perfect if you stay|
-The drugs been holdin'' me together like I''m finally wide awake|
+The dr**s been holdin'' me together like I''m finally wide awake|
 It''s just me and you together in this fantasy of mine|
 I can''t believe it only took one time (One time)|
 I can''t believe it only took one time (One time)|
@@ -322,34 +322,34 @@ Uh, uh|
 [Chorus: Dro Kenji & DC The Don]|
 Okay, I''m up, I''m wide awake|
 I see the phony and the fake|
-Niggas mad ''cause I get paper|
+n***as mad ''cause I get paper|
 Cool me down|
-She fuck rappers, I ain''t had to fly her to me|
+She f*ck rappers, I ain''t had to fly her to me|
 Don''t run down on Lil'' Kenji, I keep big ass blickys with me (Go)|
-Run down on the gang right now, all my niggas on go (Go)|
-Red dot with a .556, niggas kickin'' down doors|
+Run down on the gang right now, all my n***as on go (Go)|
+Red dot with a .556, n***as kickin'' down doors|
 I got big bag rolled up, smokin'' gas, poured up (Yeah)|
 He get blast, blown up (Yeah, hey, hey)|
 He get blast, so what? (Go)|
 |
 [Verse 1: DC The Don]|
-How the fuck get a new i8 with the butterfly doors? (Go, go)|
+How the f*ck get a new i8 with the butterfly doors? (Go, go)|
 Donny fresh out of LAX with some L.A. hoes (Go, go)|
-I put that shit on, lil'' bitch, I just hopped in the Phantom (Go, yeah)|
-I ride with the motherfuckin'' goats (Go)|
-When I''m rockin'' that green, I feel slimy as fuck (Shit)|
+I put that shit on, lil'' b*tch, I just hopped in the Phantom (Go, yeah)|
+I ride with the motherf*ckin'' goats (Go)|
+When I''m rockin'' that green, I feel slimy as f*ck (Shit)|
 Danny Phantom the whip, and Dior on my coat (Yeah)|
 I just step on the gas and I float (Yeah)|
-My bitch, she bad, but she doin'' the most (Yeah)|
-Oh, you think you a demon? This nigga a joke (Yeah)|
+My b*tch, she bad, but she doin'' the most (Yeah)|
+Oh, you think you a demon? This n***a a joke (Yeah)|
 Aimin'' straight for you, Taliban, shoot through the floor (Go)|
-Watch me make that bitch jump, jump, jump|
+Watch me make that b*tch jump, jump, jump|
 When I hop on the stage, they gon'' jump through the floor (Jump, shit)|
 Yeah, they stay on my dick, I just go with the flow (Jump)|
-We can turn the bitch up (Jump)|
+We can turn the b*tch up (Jump)|
 We keep goin'' some more (Jump, jump, jump)|
-Bitch, I got on Rick right now, what the fuck did you think? (Jump, bitch)|
-Three-five in the ''wood right now, niggas smokin'' on dank (Go)|
+b*tch, I got on Rick right now, what the f*ck did you think? (Jump, b*tch)|
+Three-five in the ''wood right now, n***as smokin'' on dank (Go)|
 That''s why I say I''m The Don of a Don ''cause I''m doin'' this shit, I do something he can''t (Go, go, go, ayy)|
 I just bang on my chest like the Planet of the Apes|
 We could slide through your hood in a big-ass tank (Go, go, go, go)|
@@ -357,37 +357,37 @@ We could slide through your hood in a big-ass tank (Go, go, go, go)|
 [Chorus: Dro Kenji & DC The Don]|
 Okay, I''m up, I''m wide awake|
 I see the phony and the fake|
-Niggas mad ''cause I get paper|
+n***as mad ''cause I get paper|
 Cool me down|
-She fuck rappers, I ain''t had to fly her to me|
+She f*ck rappers, I ain''t had to fly her to me|
 Don''t run down on Lil'' Kenji, I keep big ass blickys with me (Go)|
-Run down on the gang right now, all my niggas on go (Go)|
-Red dot with a .556, niggas kickin'' down doors|
+Run down on the gang right now, all my n***as on go (Go)|
+Red dot with a .556, n***as kickin'' down doors|
 I got big bag rolled up, smokin'' gas, poured up (Yeah)|
 He get blast, blown up (Yeah, hey, hey)|
 He get blast, so what? (Go)|
 |
 [Verse 2: Dro Kenji]|
 Like, I get so damn high, I think I seen an AC-130|
-I fucked that bitch one time and blocked her ''cause I can''t love on birdies|
+I f*cked that b*tch one time and blocked her ''cause I can''t love on birdies|
 I''m in my private section, peace out and her friends all came with me|
 This lil'' Taurus pistol on me, ain''t for violence, it''s for peace when I''m outside|
-I just seen a opp nigga tryna switch sides|
-I can''t fuck you for the free, the bitch out of her mind|
+I just seen a opp n***a tryna switch sides|
+I can''t f*ck you for the free, the b*tch out of her mind|
 Money what I need, let''s say it one more time (Let''s go, okay)|
 Big bag, stripper ass, I had a dream like Martin Luther|
-A hundred fuckin'' money bags, I''ll add that shit up, fuck a tutor|
+A hundred f*ckin'' money bags, I''ll add that shit up, f*ck a tutor|
 Money what I need, let''s say it one more time|
 Money what I need, let''s say it one more time (Let''s go)|
 [Chorus: Dro Kenji & DC The Don]|
 Okay, I''m up, I''m wide awake|
 I see the phony and the fake|
-Niggas mad ''cause I get paper|
+n***as mad ''cause I get paper|
 Cool me down|
-She fuck rappers, I ain''t had to fly her to me|
+She f*ck rappers, I ain''t had to fly her to me|
 Don''t run down on Lil'' Kenji, I keep big ass blickys with me (Go)|
-Run down on the gang right now, all my niggas on go (Go)|
-Red dot with a .556, niggas kickin'' down doors|
+Run down on the gang right now, all my n***as on go (Go)|
+Red dot with a .556, n***as kickin'' down doors|
 I got big bag rolled up, smokin'' gas, poured up (Yeah)|
 He get blast, blown up (Yeah, hey, hey)|
 He get blast, so what? (Go, go)|
@@ -395,9 +395,9 @@ He get blast, so what? (Go, go)|
 [Outro: Dro Kenji]|
 Okay, I''m up, I''m wide awake|
 I see the phony and the fake|
-Niggas mad ''cause I get paper|
+n***as mad ''cause I get paper|
 Cool me down|
-She fuck rappers, I ain''t had to fly her to me|
+She f*ck rappers, I ain''t had to fly her to me|
 Don''t run down on Lil'' Kenji, I keep big ass blickys|');
 
 -- add some info to connectdb
