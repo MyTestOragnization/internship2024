@@ -6,9 +6,9 @@ using namespace std;
 
 int main(){
     int row;
-    int num[row];
+    int num[10];
     int i, j;
-    
+    int max=num[0];
 
     cout << "please enter the number of rows" << endl;
     cin>> row;
@@ -26,7 +26,6 @@ int main(){
         }     
     }
 
-    int max=num[0];
     for(i=0; i<row; i++){
        if(max < num[i])
 			max = num[i];
