@@ -5,7 +5,7 @@
 using namespace std;
 
 void HexToDec(string hexNumber, map<int,int> hexMap){
-
+    cout.clear();
         int power = 0;
         int sum = 0;
         for(int s=hexNumber.size()-1; s>=0; s--){
@@ -17,6 +17,7 @@ void HexToDec(string hexNumber, map<int,int> hexMap){
     }
 
 void DecToHex(int decNumber,map<int, string> decMap){
+    cout.clear();
     string hexNum;
     int nextnum=decNumber;
     while(nextnum>0){
@@ -64,10 +65,12 @@ int main() {
 
     int numberDec;
     cin>>numberDec;
-    DecToHex(number, decMap);
+    DecToHex(numberDec, decMap);
     
+
     // string numberHex;
     // cin>>numberHex;
     // HexToDec(number, hexMap);
-    
+    int exit;
+    cin>>exit;
 }
