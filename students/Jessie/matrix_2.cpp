@@ -94,8 +94,8 @@ using namespace std;
         int diag_max = 0;
 
         for(int i=0; i < rows; i++){
-            for(int j=0; j < rows; j++){
-              if((i + j) <= (rows - 1)){
+            for(int j = i; j < rows; j++){
+              if((j) <= (rows - 1)){
             diagonals = matrix[i][j];
           
                 if(diag_max < diagonals){
@@ -184,5 +184,3 @@ int main(){
 
     return 0;
 }
-
-
