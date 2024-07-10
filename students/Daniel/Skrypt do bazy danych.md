@@ -1,14 +1,14 @@
 TODO: 
 - [x] relations (1 to n all tables with connectDB)
 - [x] comments (for easier documentation)
-- [ ] table for users 
+- [x] table for users 
 - [ ] normalization (if needed)
 
 
 ```
 CREATE DATABASE LyricsWorld
-GO;
-USE LyricsWorld;
+GO
+USE LyricsWorld
 -- create table artists
 CREATE TABLE dbo.Artists
 	(
@@ -403,6 +403,22 @@ Don''t run down on Lil'' Kenji, I keep big ass blickys|');
 -- add some info to connectdb
 INSERT INTO [dbo].[ConnectDB] VALUES (3,1,1), (3,1,2),(3,1,3),(3,1,4),(3,1,5),(3,2,5);
 
+-- add users table
+CREATE TABLE users
+	(
+	UserName varchar(25) NOT NULL,
+	UserPassword varchar(25) NOT NULL,
+	UserEmail varchar(150) NOT NULL CHECK (UserEmail LIKE '%_@_%._%'),
+	UserProfilePicture varchar(MAX),
+	UserLikes int DEFAULT 0 NULL,
+	UserGender char NOT NULL,
+	CONSTRAINT PK_users_UserName PRIMARY KEY CLUSTERED (UserName)
+	);
+
+-- insert data for users
+INSERT INTO [dbo].[users] VALUES ('danielharmasz','daniel123','none',0,'M','danielharmasz@gmail.com')
+INSERT INTO [dbo].[users] VALUES ('janekkowal','jan21321321','none',0,'M','jankowal@wp.pl')
+INSERT INTO [dbo].[users] VALUES ('asiakruk','joanna024','none',0,'F','joannakruk@yahoo.com')
 ```
 
 join 
@@ -411,6 +427,8 @@ SELECT AlbumTitle, AlbumID, SongTitle, SongID, ArtistName, ArtistID FROM dbo.Alb
 dbo.Songs.SongID=dbo.ConnectDB.IDsong JOIN dbo.Artists ON dbo.Artists.ArtistID=dbo.ConnectDB.IDartist
 ```
 
-
-INSERT INTO [dbo].[Songs] ([SongTitle],[SongDuration],[SongLyrics]) VALUES ('2HIGH2TELL', 160, '\
+insert copypaste
+```
+INSERT INTO [dbo].[Songs] ([SongTitle],[SongDuration],[SongLyrics]) VALUES ('',,'')
+```
 
