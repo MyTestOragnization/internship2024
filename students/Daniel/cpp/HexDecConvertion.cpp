@@ -64,10 +64,11 @@ int main() {
 
     int numberDec;
     cin>>numberDec;
-    DecToHex(number, decMap);
+    DecToHex(numberDec, decMap);
     
     // string numberHex;
     // cin>>numberHex;
     // HexToDec(number, hexMap);
-    
+    string exit;
+    cin >> exit;
 }
