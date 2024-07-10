@@ -55,7 +55,8 @@ INSERT INTO dbo.Albums(AlbumTitle,AlbumCover,AlbumType,DateAdded) VALUES ('WISH 
 ('WITH OR WITHOUT YOU','none','album','2022-01-28'),('F*CK YOUR FEELINGS','none','album','2021-06-18'),('EAT YOUR HEART OUT','none','album','2021-02-26'),('RACE ME TO HELL','none','album','2020-12-25'),
 ('TEARS AND PISTOLS','none','album','2020-11-13');
 
--- add dro kenji
+-- add artists
+INSERT INTO dbo.Artists ([ArtistName],[ArtistDescription],[ArtistPhoto],[ArtistPopularity]) VALUES ('Metallica', 'Metallica is an American heavy metal band. The band was formed in 1981 in Los Angeles by vocalist and guitarist James Hetfield and drummer Lars Ulrich, and has been based in San Francisco for most of its career.','none',0)
 INSERT INTO dbo.Artists ([ArtistName],[ArtistDescription],[ArtistPhoto]) VALUES ('DroKenji','Daniel Jerome Jenrette (born January 11, 2002), known professionally as Dro Kenji , is an American rapper and singer from Summerville, South Carolina. He is currently signed to Internet Money Records and 10K Projects. In 2019, at the age of 17, Dro Kenji started rapping.','none');
 -- add dc the don
 INSERT INTO [dbo].[Artists] ([ArtistName],[ArtistDescription],[ArtistPhoto]) VALUES ('DC The Don','Daijon Cotty Davis (born August 3, 1999), known professionally as DC the Don, is an American rapper, singer, and songwriter from Milwaukee, Wisconsin. He is recognized for mixing elements of hip-hop, rock, and melodic rap in his music.','none');
@@ -419,6 +420,246 @@ CREATE TABLE users
 INSERT INTO [dbo].[users] VALUES ('danielharmasz','daniel123','none',0,'M','danielharmasz@gmail.com')
 INSERT INTO [dbo].[users] VALUES ('janekkowal','jan21321321','none',0,'M','jankowal@wp.pl')
 INSERT INTO [dbo].[users] VALUES ('asiakruk','joanna024','none',0,'F','joannakruk@yahoo.com')
+
+-- insert data to albums for death magnetic
+INSERT INTO [dbo].[Albums] ([AlbumTitle],[DateAdded],[AlbumCover],[AlbumType]) VALUES ('Death Magnetic', '2008-01-1', 'none','album');
+-- insert data to songs for metallica
+USE LyricsWorld1
+INSERT INTO [dbo].[Songs] ([SongTitle],[SongDuration],[SongLyrics]) VALUES ('That Was Just Your Life',7*60+8,'[Produced by Rick Rubin]|
+|[Verse 1]|
+Like a siren in my head that always threatens to repeat|
+Like a blind man that is strapped into the speeding driver''s seat|
+Like a face that learned to speak, when all it knew was how to bite|
+Like a misery that keeps me focused though I''ve gone astray|
+Like an endless nightmare that I must awaken from each day|
+Like conviction, a premonition not worthy of, so I deny, I deny|
+
+[Pre-Chorus]|
+I blind my eyes and try to force it all into place|
+I stitch them up, see not my fall from grace|
+I blind my eyes, I hide and feel it passing me by|
+I open just in time to say goodbye|
+
+[Chorus]|
+Almost like your life, almost like your endless fight|
+Curse the day is long, realize you don''t belong|
+Disconnect somehow, never stop the bleeding now|
+Almost like your fight, and there it went almost like your life|
+
+[Verse 2]|
+Like a wound that keeps on bleeding to remind me not to think|
+Like a raging river, drowning when I only need a drink|
+Like a poison that I swallow, but I want the world to die|
+Like a release from a prison that I didn''t know I was in|
+Like a fight to live the past I prayed to leave from way back then|
+Like a general without a mission until the war would start again|
+Start again|
+
+[Pre-Chorus]|
+I blind my eyes and try to force it all into place|
+I stitch them up, see not my fall from grace|
+I blind my eyes, I hide and feel it passing me by|
+I open just in time to say goodbye|
+
+[Chorus]|
+Almost like your life, almost like your endless fight|
+Curse the day is long, realize you don''t belong|
+Disconnect somehow, never stop the bleeding now|
+Almost like your fight, and there it went almost like your life|
+
+[Bridge]|
+Like a touch from hell to feel how hot|
+That it can get if you get caught|
+Like a strike from heaven that turns that key|
+That brings you straight down to your knees|
+Like a touch from hell to feel how hot|
+That it can get if I get caught|
+Like a strike from heaven to reprieve|
+That brings you straight down to your knees|
+
+[Chorus]|
+Almost like your life, almost like your endless fight|
+Curse the day is long, realize you don''t belong|
+Disconnect somehow, never stop the bleeding now|
+Almost like your fight, and there it went almost like your life|
+
+[Outro]|
+That was just your life|');
+INSERT INTO [dbo].[Songs] ([SongTitle],[SongDuration],[SongLyrics]) VALUES ('The End Of The Line',7*60+52,'[Verse 1]|
+Need more and more, tainted misery|
+Bleed, battle scars, chemical affinity|
+Reign, legacy, innocence corrode|
+Stain, rot away, catatonic overload|
+
+[Verse 2]|
+Choke, asphyxia, snuff reality|
+Scorch, kill the light, incinerate celebrity|
+Reaper, butchery, karma amputee|
+Bloodline, breeding fine, death contagious deity|
+
+[Pre-Chorus]|
+Hooked into this deceiver|
+Need more and more|
+Into the endless fever|
+Need more and more|
+
+[Chorus]|
+New consequence machine|
+Burn through all your gasoline|
+Asylum overtime, nevermind|
+You''ve reached the end of the line|
+The end of the line|
+
+[Verse 3]|
+Time, choke the clock, steal another day|
+Die faithfully, narcissistic fade away|
+Twisted, jump the rail, shout at the crowd below|
+Breaker, chase the ghost, from latest high to all time low|
+See Metallica Live|
+Get tickets as low as $45|
+You might also like|
+The Unforgiven III|
+Metallica|
+That Was Just Your Life|
+Metallica|
+I Hate It Here|
+Taylor Swift|
+[Pre-Chorus]|
+Hooked into this deceiver|
+Need more and more|
+Into the endless fever|
+Need more and more|
+
+[Chorus]|
+New consequence machine|
+Burn through all your gasoline|
+Asylum overtime, nevermind|
+You''ve reached the end of the line|
+
+[Bridge]|
+Drop the hourglass of time|
+Spilling sand we will not find|
+As we gather here today|
+We bid farewell, the slave becomes the master|
+The slave becomes the master|
+The slave becomes the master, yeah|
+
+[Pre-Chorus]|
+The slave becomes the master|
+Need more and more|
+Right now, and ever after|
+Need more and more|
+[Chorus]|
+New consequence machine|
+Burn through all your gasoline|
+Asylum overtime, never mind|
+Dead hour-glass of time, sand we will not ever find|
+We gather here today, say goodbye|
+Cause you''ve reached the end of the line|
+
+[Outro]|
+The end of the line|
+The end of the line|
+The end of the line|
+You''ve reached the end of the line|');
+INSERT INTO [dbo].[Songs] ([SongTitle],[SongDuration],[SongLyrics]) VALUES ('Broken, Beat & Scarred',6*60+25,'[Verse 1]|
+You rise, you fall, you’re down and you rise again|
+What don''t kill you, make you more strong|
+You rise, you fall, you’re down and you rise again|
+What don''t kill you, make you more strong|
+Rise, fall down, rise again|
+What don''t kill you, make you more strong|
+Rise, fall down, rise again|
+What don''t kill you, make you more strong|
+Through black days, through black nights|
+Through pitch black insides|
+
+[Chorus]|
+Breaking your teeth on the hard life coming|
+Show your scars|
+Cutting your feet on the hard earth running|
+Show your scars|
+Breaking your life, broken, beat and scarred|
+But we die hard|
+
+[Verse 2]|
+The dawn, the death, the fight to the final breath|
+What don''t kill you, make you more strong|
+The dawn, the death, the fight to the final breath|
+What don''t kill you, make you more strong|
+Dawn, death, fight, final breath|
+What don''t kill you, make you more strong|
+Dawn, death, fight, final breath|
+What don''t kill you, make you more strong|
+They scratch me, they scrape me|
+They cut and rape me|
+
+[Chorus]|
+Breaking your teeth on the hard life coming|
+Show your scars|
+Cutting your feet on the hard earth running|
+Show your scars|
+Breaking your life, broken, beat and scarred|
+But we die hard|
+
+[Outro]|
+Breaking your teeth on the hard life coming|
+Show your scars|
+Cutting your feet on the hard earth running|
+Show your scars|
+Bleeding your soul in a hard luck story|
+Show your scars|
+Spilling your blood in the hot sun''s glory|
+Show your scars|
+Breaking your life, broken, beat and scarred|
+We die hard|
+We die hard|
+We die hard|');
+INSERT INTO [dbo].[Songs] ([SongTitle],[SongDuration],[SongLyrics]) VALUES ('The Day That Never Comes',7*60+56,'[Instrumental Intro]|
+
+[Verse 1]|
+Born to push you ''round|
+Better just stay down|
+You pull away, he hits the flesh, you hit the ground|
+Mouth so full of lies|
+Tend to black your eyes|
+Just keep them closed, keep praying, just keep waiting|
+
+[Chorus]|
+Waiting for the one|
+The day that never comes, ah|
+When you stand up and feel the warmth|
+But the sunshine never comes, no|
+No, the sunshine never comes|
+
+[Verse 2]|
+Push you cross that line|
+Just stay down this time|
+Hide in yourself, crawl in yourself, you''ll have your time|
+God, I''ll make them pay|
+Take it back one day|
+I''ll end this day|
+I''ll splatter color on this gray|
+
+[Chorus]|
+Waiting for the one|
+The day that never comes, ah|
+When you stand up and feel the warmth|
+But the sunshine never comes|
+
+[Bridge]|
+Love is a four letter word|
+And never spoken here|
+Love is a four letter word|
+Here in this prison|
+I suffer this no longer|
+I''ll put an end to this, I swear|
+This, I swear, the sun will shine|
+This, I swear, this, I swear|
+This I swear|');
+
+-- insert data to connectdb
+INSERT INTO [dbo].[ConnectDB] VALUES (9,3,6),(9,3,7),(9,3,8),(9,3,9);
 ```
 
 join 
@@ -427,7 +668,7 @@ SELECT AlbumTitle, AlbumID, SongTitle, SongID, ArtistName, ArtistID FROM dbo.Alb
 dbo.Songs.SongID=dbo.ConnectDB.IDsong JOIN dbo.Artists ON dbo.Artists.ArtistID=dbo.ConnectDB.IDartist
 ```
 
-insert copypaste
+insert copypaste for songs
 ```
 INSERT INTO [dbo].[Songs] ([SongTitle],[SongDuration],[SongLyrics]) VALUES ('',,'')
 ```
