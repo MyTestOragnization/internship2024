@@ -16,7 +16,6 @@ using namespace std;
 
     int find_max(int** matrix, int rows){
         int max_val = 0;
-        int j;
         for(int i=0; i < rows; i++){
             for(int j=0; j < rows; j++){
                 if(max_val < matrix[i][j]){
@@ -43,7 +42,6 @@ using namespace std;
     }
 
     int find_average(int** matrix, int rows){
-        int average = 0;
         int summary = 0;
 
         int j;
@@ -53,20 +51,18 @@ using namespace std;
             }
         }
 
-        average = summary  / (rows * rows);
+        summary = summary  / (rows * rows);
 
-        return average;
+        return summary;
     }
 
     int diagonal_sumLR(int** matrix, int rows ){
-        int diagonals;
         int sum;
 
         for(int i=0; i < rows; i++){
             for(int j=0; j < rows; j++){
               if(i == j){
-              diagonals = matrix[i][j];
-              sum += diagonals;
+              sum += matrix[i][j];;
               }
             }
         }
@@ -94,8 +90,8 @@ using namespace std;
         int diag_max = 0;
 
         for(int i=0; i < rows; i++){
-            for(int j=0; j < rows; j++){
-              if((i + j) <= (rows - 1)){
+            for(int j = i; j < rows; j++){
+              if((j) <= (rows - 1)){
             diagonals = matrix[i][j];
           
                 if(diag_max < diagonals){
@@ -184,5 +180,3 @@ int main(){
 
     return 0;
 }
-
-
