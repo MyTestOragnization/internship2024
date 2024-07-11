@@ -11,15 +11,25 @@ auto getNumbers(){
 
 
 vector<int> findPrimeNumbers(vector<int> numbers){
+    vector<int>newnumbers=numbers;
+    bool end = false;
     int maxsize,divider=2,curitem;
     vector<int>temparray;
-    while(!numbers.empty()){
-        maxsize=numbers.size();
-        
+    while(!end){
+
+        maxsize=newnumbers.size();
         for (int i = 0; i < maxsize; i++){
-            curitem=numbers.at(i);
+            curitem=newnumbers.at(i);
      
-            if(curitem%divider!=0){temparray.push_back(curitem);}
+            if(curitem%divider!=0 || curitem/divider==1){temparray.push_back(curitem);}
+        }
+
+        
+        for(int y:temparray){
+            newnumbers.push_back(temparray.at(y));
+        }
+        if(divider*divider>maxsize){
+            end=true;
         }
         divider++;
     }
