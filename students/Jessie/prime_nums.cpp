@@ -25,14 +25,14 @@ using namespace std;
     
 
 int main(){
-    int num, prime=2;
-    int arr[num];
+    int num, prime = 2;
+ //   int arr[num];
     cout << "enter the max value of the prime numbers range" << endl;
     cin >> num;
 
-    for(int i = 1; i <= num; ++i) {
-        arr[num] = i + 1; 
-        cout << arr[num] << " "; }
+    // for(int i = 1; i < num; ++i) {
+    //     arr[num] = i + 1; 
+    //     cout << arr[num] << " "; }
 
     sieveOfErat(num);
 
