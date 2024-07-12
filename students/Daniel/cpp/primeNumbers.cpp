@@ -25,16 +25,16 @@ vector<int> findPrimeNumbers(vector<int> numbers){
         }
 
         
-        for(int y:temparray){
-            newnumbers.push_back(temparray.at(y));
-        }
-        if(divider*divider>maxsize){
+        
+        if(divider*divider>numbers.size()){
             end=true;
         }
+        newnumbers=temparray;
+        temparray={};
         divider++;
     }
 
-    return numbers;
+    return newnumbers;
 }
 
 
@@ -48,6 +48,7 @@ int main(){
 
     
 }
+
 /* 
  // array for prime numbers
     vector<int>primes{2};
