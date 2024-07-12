@@ -9,11 +9,12 @@ using namespace std;
         }
         return res;
     }
+    
 
 int main() {
     int n;
     int fac;
-    cout << " enter a number to factorize" << endl;
+    cout << " enter a number" << endl;
     cin >> n;
 
    fac = factorial(n);
