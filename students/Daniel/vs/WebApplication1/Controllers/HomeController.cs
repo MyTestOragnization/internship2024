@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using WebApplication1.Data;
 using WebApplication1.Models;
 
-namespace WebApplication1.Controllers
+namespace test1.Controllers
 {
     public class HomeController : Controller
     {
@@ -21,6 +22,19 @@ namespace WebApplication1.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult Profile()
+        {
+            List<TestPiosenka> piosenki = new List<TestPiosenka>();
+            SongRepository songRepository = new SongRepository();
+
+            piosenki = songRepository.GetAllSongs();
+
+            
+           
+
+            return View(piosenki);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
