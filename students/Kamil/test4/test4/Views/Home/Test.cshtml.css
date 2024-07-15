@@ -1,0 +1,14 @@
+﻿body {
+    p
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+
+}
