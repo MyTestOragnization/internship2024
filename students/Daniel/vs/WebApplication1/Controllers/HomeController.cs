@@ -26,15 +26,43 @@ namespace test1.Controllers
 
         public IActionResult Profile()
         {
-            List<TestPiosenka> piosenki = new List<TestPiosenka>();
+       
             SongRepository songRepository = new SongRepository();
-
-            piosenki = songRepository.GetAllSongs();
-
-            
-           
+            var piosenki = songRepository.GetAllSongs();
 
             return View(piosenki);
+        }
+        public IActionResult Edit(int SongID)
+        {
+            TestPiosenka testPiosenka;
+            SongRepository songRepository = new SongRepository();
+                
+            testPiosenka= songRepository.GetSongById(SongID);
+
+            return View(testPiosenka);
+        }
+        public IActionResult EditSong(int SongID, TestPiosenka testPiosenka)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+
+
+                    SongRepository songRepository = new SongRepository();
+                    if (songRepository.EditSong(SongID, testPiosenka))
+                    {
+                        return RedirectToAction("Index");
+                    }
+                    return View();
+                }
+            
+            }
+            catch (Exception ex)
+            {
+                return View();
+            }
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
