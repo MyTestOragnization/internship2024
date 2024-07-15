@@ -21,20 +21,78 @@ namespace WebApplication1.Data
 
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);
             DataTable dataTable = new DataTable();
-            
+
             adapter.Fill(dataTable);
 
             foreach (DataRow row in dataTable.Rows)
             {
-                piosenka.Add(new TestPiosenka { 
+                piosenka.Add(new TestPiosenka
+                {
                     SongID = Convert.ToInt32(row["SongID"]),
-                    SongTitle = row["SongTitle"].ToString(),    
+                    SongTitle = row["SongTitle"].ToString(),
                     SongDuration = Convert.ToInt32(row["SongDuration"]),
                     SongLyrics = row["SongLyrics"].ToString(),
                     SongGenre = row["SongGenre"].ToString()
                 });
             }
             return piosenka;
+        }
+
+        public bool EditSong(int Id, TestPiosenka song)
+        {
+
+            SqlCommand sqlCommand = new SqlCommand("UpdateSongs", sqlConnection);
+            sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+
+            sqlCommand.Parameters.AddWithValue("@ID", Id);
+            sqlCommand.Parameters.AddWithValue("@SongTitle", song.SongTitle);
+            sqlCommand.Parameters.AddWithValue("@SongDuration", song.SongDuration);
+            sqlCommand.Parameters.AddWithValue("@SongLyrics", song.SongLyrics);
+            sqlCommand.Parameters.AddWithValue("@SongGenre", song.SongGenre);
+
+            sqlConnection.Open();
+            try
+            {
+                sqlCommand.ExecuteNonQuery();
+                sqlConnection.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sqlConnection.Close();
+                return false;
+            }
+
+        }
+
+        public TestPiosenka GetSongById(int SongID)
+        {
+            List<TestPiosenka> piosenka = new List<TestPiosenka>();
+            SqlCommand cmd = new SqlCommand("GetSongById", sqlConnection);
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("Id", SongID);
+            sqlConnection.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+
+
+
+            while (reader.Read())
+            {
+                piosenka.Add(new TestPiosenka()
+                {
+                    SongID = Convert.ToInt32(reader["SongID"]),
+                    SongTitle = reader["SongTitle"].ToString(),
+                    SongDuration = Convert.ToInt32(reader["SongDuration"]),
+                    SongLyrics = reader["SongLyrics"].ToString(),
+                    SongGenre = reader["SongGenre"].ToString()
+                });
+
+
+            }
+            sqlConnection.Close();
+            return piosenka[0];
         }
     }
 }
