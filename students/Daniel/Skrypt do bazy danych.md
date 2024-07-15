@@ -660,6 +660,45 @@ This I swear|');
 
 -- insert data to connectdb
 INSERT INTO [dbo].[ConnectDB] VALUES (9,3,6),(9,3,7),(9,3,8),(9,3,9);
+
+-- add genre column to songs
+ALTER TABLE dbo.Songs ADD SongGenre varchar(30) NULL;
+
+-- update data in songs table
+UPDATE dbo.Songs SET SongGenre = 'Bedroom R-b' WHERE SongID<=5;
+UPDATE dbo.Songs SET SongGenre = 'Thrash Metal' WHERE SongID>5;
+
+-- procedure to get all songs
+CREATE PROCEDURE GetAllSongs
+as
+Begin
+SELECT * FROM dbo.Songs
+END
+exec GetAllSongs
+
+-- procedure to update songs
+CREATE PROCEDURE UpdateSongs
+@SongID INT,
+@SongTitle VARCHAR(50),
+@SongDuration INT,
+@SongLyrics VARCHAR(MAX),
+@SongGenre VARCHAR(30)
+as
+Begin
+
+UPDATE dbo.Songs
+SET [SongTitle] = @SongTitle, [SongDuration] = @SongDuration, [SongLyrics] = @SongLyrics, 
+	[SongGenre] = @SongGenre WHERE SongID=@SongID
+
+END
+
+-- procedure to get one song by id
+CREATE PROCEDURE GetSongById
+@Id int
+as
+BEGIN 
+SELECT * FROM dbo.Songs	WHERE SongID = @Id;
+END
 ```
 
 join 
