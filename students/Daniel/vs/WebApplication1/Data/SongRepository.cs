@@ -98,7 +98,7 @@ namespace WebApplication1.Data
 
         public bool DeleteSong(int SongID) 
         {
-            SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID="+SongID+"", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID="+SongID+";DELETE FROM ConnectDB WHERE IDsong="+SongID+";", sqlConnection);
 
             sqlConnection.Open();
 
