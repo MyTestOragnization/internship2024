@@ -4,7 +4,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Data
 {
-    
+
     public class SongRepository
     {
         private SqlConnection sqlConnection;
@@ -96,9 +96,9 @@ namespace WebApplication1.Data
         }
 
 
-        public bool DeleteSong(int SongID) 
+        public bool DeleteSong(int SongID)
         {
-            SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID="+SongID+";DELETE FROM ConnectDB WHERE IDsong="+SongID+";", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID=" + SongID + ";DELETE FROM ConnectDB WHERE IDsong=" + SongID + ";", sqlConnection);
 
             sqlConnection.Open();
 
@@ -108,11 +108,28 @@ namespace WebApplication1.Data
                 sqlConnection.Close();
                 return true;
             }
-            catch 
+            catch
             {
                 sqlConnection.Close();
-                return false;    
+                return false;
             }
+        }
+
+        public bool AddNewSong(Piosenka piosenka)
+        {
+            SqlCommand sqlCommand = new SqlCommand("INSERT INTO Songs ([SongTitle],[SongDuration],[SongLyrics],[SongGenre]) " +
+                "VALUES ('" + piosenka.SongTitle + "'," + piosenka.SongDuration + ",'" +
+                piosenka.SongLyrics + "','" + piosenka.SongGenre + "')", sqlConnection);
+
+            sqlConnection.Open();
+
+            try
+            {
+                sqlCommand.ExecuteNonQuery();
+                sqlConnection.Close();
+                return true;
+            }
+            catch { sqlConnection.Close(); return false; }
         }
     }
 }

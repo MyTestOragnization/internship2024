@@ -52,14 +52,14 @@ namespace test1.Controllers
                     SongRepository songRepository = new SongRepository();
                     if (songRepository.EditSong(SongID, testPiosenka))
                     {
-                        return RedirectToAction("Index");
+                        return RedirectToAction("Songs");
                     }
                 }
-                return RedirectToAction("Songs");
+                return RedirectToAction("Index");
             }
             catch (Exception ex)
             {
-                return RedirectToAction("Songs");
+                return View();
             }
         }
         public ActionResult Delete(int SongID) 
@@ -86,6 +86,24 @@ namespace test1.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult AddSong()
+        {
+            return View();
+        }
+
+        public ActionResult AddNewSong(Piosenka piosenka)
+        {
+            if (ModelState.IsValid)
+            {
+                SongRepository songRepository = new SongRepository();
+                if (songRepository.AddNewSong(piosenka))
+                {
+                    return RedirectToAction("Songs");
+                }
+
+            }
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
