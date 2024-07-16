@@ -4,6 +4,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Data
 {
+    
     public class SongRepository
     {
         private SqlConnection sqlConnection;
@@ -13,9 +14,9 @@ namespace WebApplication1.Data
             string connectionString = "Server=L-01452019\\SQL2022;Database=LyricsWorld1;Trusted_Connection=True;TrustServerCertificate=True;";
             sqlConnection = new SqlConnection(connectionString);
         }
-        public List<TestPiosenka> GetAllSongs()
+        public List<Piosenka> GetAllSongs()
         {
-            List<TestPiosenka> piosenka = new List<TestPiosenka>();
+            List<Piosenka> piosenka = new List<Piosenka>();
             SqlCommand cmd = new SqlCommand("GetAllSongs", sqlConnection);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
@@ -26,7 +27,7 @@ namespace WebApplication1.Data
 
             foreach (DataRow row in dataTable.Rows)
             {
-                piosenka.Add(new TestPiosenka
+                piosenka.Add(new Piosenka
                 {
                     SongID = Convert.ToInt32(row["SongID"]),
                     SongTitle = row["SongTitle"].ToString(),
@@ -38,13 +39,12 @@ namespace WebApplication1.Data
             return piosenka;
         }
 
-        public bool EditSong(int Id, TestPiosenka song)
+        public bool EditSong(int Id, Piosenka song)
         {
 
             SqlCommand sqlCommand = new SqlCommand("UpdateSongs", sqlConnection);
             sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
-
-            sqlCommand.Parameters.AddWithValue("@ID", Id);
+            sqlCommand.Parameters.AddWithValue("@SongID", Id);
             sqlCommand.Parameters.AddWithValue("@SongTitle", song.SongTitle);
             sqlCommand.Parameters.AddWithValue("@SongDuration", song.SongDuration);
             sqlCommand.Parameters.AddWithValue("@SongLyrics", song.SongLyrics);
@@ -53,7 +53,8 @@ namespace WebApplication1.Data
             sqlConnection.Open();
             try
             {
-                sqlCommand.ExecuteNonQuery();
+                var query = sqlCommand.ExecuteNonQuery();
+                Console.WriteLine(query.ToString());
                 sqlConnection.Close();
                 return true;
             }
@@ -66,9 +67,9 @@ namespace WebApplication1.Data
 
         }
 
-        public TestPiosenka GetSongById(int SongID)
+        public Piosenka GetSongById(int SongID)
         {
-            List<TestPiosenka> piosenka = new List<TestPiosenka>();
+            List<Piosenka> piosenka = new List<Piosenka>();
             SqlCommand cmd = new SqlCommand("GetSongById", sqlConnection);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
@@ -80,7 +81,7 @@ namespace WebApplication1.Data
 
             while (reader.Read())
             {
-                piosenka.Add(new TestPiosenka()
+                piosenka.Add(new Piosenka()
                 {
                     SongID = Convert.ToInt32(reader["SongID"]),
                     SongTitle = reader["SongTitle"].ToString(),

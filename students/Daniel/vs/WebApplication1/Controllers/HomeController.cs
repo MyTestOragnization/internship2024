@@ -24,7 +24,7 @@ namespace test1.Controllers
             return View();
         }
 
-        public IActionResult Profile()
+        public IActionResult Songs()
         {
        
             SongRepository songRepository = new SongRepository();
@@ -34,14 +34,14 @@ namespace test1.Controllers
         }
         public IActionResult Edit(int SongID)
         {
-            TestPiosenka testPiosenka;
+            Piosenka testPiosenka;
             SongRepository songRepository = new SongRepository();
                 
             testPiosenka= songRepository.GetSongById(SongID);
 
             return View(testPiosenka);
         }
-        public IActionResult EditSong(int SongID, TestPiosenka testPiosenka)
+        public IActionResult EditSong(int SongID, Piosenka testPiosenka)
         {
             try
             {
@@ -54,15 +54,15 @@ namespace test1.Controllers
                     {
                         return RedirectToAction("Index");
                     }
-                    return View();
+                    return RedirectToAction("Songs");
                 }
             
             }
             catch (Exception ex)
             {
-                return View();
+                return RedirectToAction("Songs");
             }
-            return View();
+            return RedirectToAction("Songs");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

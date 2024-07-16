@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\songs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\songs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T11:53:53.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T11:17:03.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SongRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
+              "RelativeDocumentMoniker": "Data\\SongRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
+              "RelativeToolTip": "Data\\SongRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAjwD0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:58:05.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T07:47:19.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T07:40:54.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:40:13.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Songs.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Songs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Songs.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Songs.cshtml",
+              "RelativeToolTip": "Views\\Home\\Songs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T07:40:00.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

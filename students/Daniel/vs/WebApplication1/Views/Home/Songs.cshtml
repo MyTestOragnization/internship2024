@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Piosenka>
+
+@{
+
+}
+
+<h1>
+   
+    @foreach(var song in Model)
+    {
+        @Html.Raw(song.SongLyrics.Replace("|", "<br />"));     
+        @song.SongID <br>
+        @song.SongTitle <br />
+           
+        <a asp-action="Edit" asp-route-SongID="@song.SongID">Edit</a>
+
+        <br /><br />
+    }
+
+</h1>
