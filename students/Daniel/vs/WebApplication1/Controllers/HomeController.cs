@@ -54,15 +54,36 @@ namespace test1.Controllers
                     {
                         return RedirectToAction("Index");
                     }
-                    return RedirectToAction("Songs");
                 }
-            
+                return RedirectToAction("Songs");
             }
             catch (Exception ex)
             {
                 return RedirectToAction("Songs");
             }
-            return RedirectToAction("Songs");
+        }
+        public ActionResult Delete(int SongID) 
+        {
+
+
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    SongRepository songRepository = new SongRepository();
+                    if (songRepository.DeleteSong(SongID))
+                    {
+                        return RedirectToAction("Songs");
+                    }
+                    
+                }
+                
+            }
+            catch 
+            {
+                return View();
+            }
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

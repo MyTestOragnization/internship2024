@@ -53,8 +53,7 @@ namespace WebApplication1.Data
             sqlConnection.Open();
             try
             {
-                var query = sqlCommand.ExecuteNonQuery();
-                Console.WriteLine(query.ToString());
+                sqlCommand.ExecuteNonQuery();
                 sqlConnection.Close();
                 return true;
             }
@@ -94,6 +93,26 @@ namespace WebApplication1.Data
             }
             sqlConnection.Close();
             return piosenka[0];
+        }
+
+
+        public bool DeleteSong(int SongID) 
+        {
+            SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID="+SongID+"", sqlConnection);
+
+            sqlConnection.Open();
+
+            try
+            {
+                sqlCommand.ExecuteNonQuery();
+                sqlConnection.Close();
+                return true;
+            }
+            catch 
+            {
+                sqlConnection.Close();
+                return false;    
+            }
         }
     }
 }
