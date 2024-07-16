@@ -18,10 +18,10 @@ void change(float cost)
         {
             if(i<10)
             {
-                cout<<endl<< "you get : "<<tabval[i]<<"--"<<tab[i]/100<<"zł";
+                cout<<endl<< "you get : "<<tabval[i]<<"--"<<tab[i]/100<<" zł";
             }else
             {
-                cout<<endl<< "you get : "<<tabval[i]<<"--"<<tab[i]<<"groszy";
+                cout<<endl<< "you get : "<<tabval[i]<<"--"<<tab[i]<<" groszy";
             }
         }
         i++;

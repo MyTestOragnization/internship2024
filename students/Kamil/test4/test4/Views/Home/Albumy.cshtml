@@ -1,0 +1,13 @@
+﻿@model List<test4.Models.Album>
+
+@{
+    ViewData["Title"] = "Albumy";
+}
+<h1>@ViewData["Title"]</h1>
+
+@foreach( var m in Model)
+{
+    <p>
+        @m.Id @m.MadeIn @m.Price @m.AlbumName @m.Amount
+    </p>
+}
