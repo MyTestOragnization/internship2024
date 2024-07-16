@@ -1,0 +1,62 @@
+﻿@using WebApplication1.Formatters
+
+@model IEnumerable<WebApplication1.Models.Albums>
+
+@{
+    ViewData["Title"] = "View";
+    DateFormatter dateformat = new DateFormatter();
+}
+
+<h1>View</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateAdded)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumCover)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AlbumType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumTitle)
+            </td>
+            <td>
+                @dateformat.DateToStrng(item.DateAdded)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumCover)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AlbumType)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

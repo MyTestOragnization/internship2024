@@ -4,8 +4,9 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Data
 {
-    public class SongRepository 
+    public class SongRepository // : RepoInterface
     {
+        
         private SqlConnection sqlConnection;
         static string connectionString = "Server=L-01452019\\SQL2022;Database=LyricsWorld1;Trusted_Connection=True;TrustServerCertificate=True;";
 
@@ -78,7 +79,7 @@ namespace WebApplication1.Data
 
                 using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    
+
                     while (reader.Read())
                     {
                         piosenka.Add(new Piosenka()
@@ -92,7 +93,7 @@ namespace WebApplication1.Data
 
 
                     }
-                    
+
                 }
 
                 sqlConnection.Close();
@@ -141,5 +142,36 @@ namespace WebApplication1.Data
                 catch { sqlConnection.Close(); return false; }
             }
         }
+
+        public List<Albums> GetAlbums()
+        {
+            
+            using (sqlConnection = new SqlConnection(connectionString))
+            {
+                List<Albums> albums = new List<Albums>();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM Albums", sqlConnection);
+                cmd.CommandType = System.Data.CommandType.Text;
+
+                using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                {
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+
+                    foreach (DataRow row in dataTable.Rows)
+                    {
+                        albums.Add(new Albums
+                        {
+                            AlbumID = Convert.ToInt32(row["AlbumID"]),
+                            AlbumTitle = row["AlbumTitle"].ToString(),
+                            DateAdded = (DateTime)row["DateAdded"],
+                            AlbumCover = row["AlbumCover"].ToString(),
+                            AlbumType = row["AlbumType"].ToString()
+                        });
+                    }
+                }
+                return albums;
+            }
+        }
+
     }
 }

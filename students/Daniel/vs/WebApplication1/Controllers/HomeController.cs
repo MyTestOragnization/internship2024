@@ -98,6 +98,16 @@ namespace test1.Controllers
             return View();
         }
 
+        public ActionResult AlbumList() 
+        {
+            return RedirectToAction("AlbumList", "Albums");
+        }
+        
+        public IActionResult AdminPanel()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
