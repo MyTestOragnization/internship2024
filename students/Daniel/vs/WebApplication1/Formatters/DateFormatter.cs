@@ -1,4 +1,4 @@
-﻿namespace WebApplication1.Formaters
+﻿namespace WebApplication1.Formatters
 {
     public class DateFormatter
     {
