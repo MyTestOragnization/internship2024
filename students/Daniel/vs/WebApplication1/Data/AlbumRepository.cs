@@ -23,7 +23,6 @@ namespace WebApplication1.Data
 
         public Albums GetOneAlbum(int id)
         {
-            string sql = "SELECT * FROM Albums WHERE AlbumID="+id+";";
             var album = DbContext.Albums.Find(id);
             return album;
         }

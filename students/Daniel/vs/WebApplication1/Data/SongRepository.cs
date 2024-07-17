@@ -105,7 +105,7 @@ namespace WebApplication1.Data
         {
             using (sqlConnection = new SqlConnection(connectionString))
             {
-                SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID=" + SongID + ";DELETE FROM ConnectDB WHERE IDsong=" + SongID + ";", sqlConnection);
+                SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID=" + SongID);
 
                 sqlConnection.Open();
 
