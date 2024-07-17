@@ -59,7 +59,6 @@ namespace WebApplication1.Controllers
         public IActionResult Delete(int id) 
         {
             var result = AlbumRepository.DeleteAlbum(id);
-
             if (result == true) 
             {
                 return RedirectToAction("AlbumList");
