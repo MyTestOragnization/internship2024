@@ -54,7 +54,7 @@ namespace test1.Controllers
                 }
                 return RedirectToAction("Index");
             }
-            catch (Exception ex)
+            catch
             {
                 return View();
             }

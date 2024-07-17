@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.Design;
 
 namespace WebApplication1.Models
 {
@@ -15,7 +16,10 @@ namespace WebApplication1.Models
         [Required]
         public string AlbumType { get; set; }
 
-        public Albums() { }
+        public Albums() 
+        { 
+        }
+            
         public Albums(int AlbumID, string AlbumTitle,DateTime DateAdded, string AlbumCover, string AlbumType)
         {
             AlbumID = this.AlbumID;
