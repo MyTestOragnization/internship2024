@@ -7,5 +7,7 @@ namespace WebApplication1.Data
         public IEnumerable<Albums> GetAlbums();
         public Albums GetOneAlbum(int id);
         public bool SaveEdited(Albums album);
+        public bool AddNewAlbum (Albums album);
+        public bool DeleteAlbum (int id);
     }
 }

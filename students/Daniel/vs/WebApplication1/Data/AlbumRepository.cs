@@ -30,9 +30,25 @@ namespace WebApplication1.Data
 
         public bool SaveEdited(Albums album)
         {
-            var result = DbContext.Update(album);
+            var result = DbContext.Update(album); 
             DbContext.SaveChanges();
             return result != null;
         }
+
+        public bool AddNewAlbum(Albums album)
+        {
+            var result = DbContext.Add(album);
+            DbContext.SaveChanges();
+            return result != null;
+        }
+
+        public bool DeleteAlbum(int id)
+        {
+            var album = GetOneAlbum(id);
+            var result = DbContext.Remove(album);
+            DbContext.SaveChanges();
+            return result != null;
+        }
+        
     }
 }

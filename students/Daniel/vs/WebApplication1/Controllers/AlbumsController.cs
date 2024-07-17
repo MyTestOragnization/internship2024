@@ -41,6 +41,30 @@ namespace WebApplication1.Controllers
             }
             else { return View(); }
         }
+        [HttpGet]
+        public IActionResult AddView()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddNewAlbum(Albums album)
+        {
+            var result = AlbumRepository.AddNewAlbum(album);
+            if (result == true) 
+            {
+                return RedirectToAction("AlbumList");
+            }
+            else { return View(); }
+        }
+        public IActionResult Delete(int id) 
+        {
+            var result = AlbumRepository.DeleteAlbum(id);
 
+            if (result == true) 
+            {
+                return RedirectToAction("AlbumList");
+            }
+            else { return View(); }
+        }
     }
 }
