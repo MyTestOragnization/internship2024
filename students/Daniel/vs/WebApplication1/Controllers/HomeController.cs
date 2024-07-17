@@ -102,6 +102,10 @@ namespace test1.Controllers
         {
             return RedirectToAction("AlbumList", "Albums");
         }
+        public ActionResult ArtistList() 
+        {
+            return RedirectToAction("ArtistList", "Artist");
+        }
         
         public IActionResult AdminPanel()
         {

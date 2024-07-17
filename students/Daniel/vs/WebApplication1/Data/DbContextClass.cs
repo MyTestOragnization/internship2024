@@ -11,6 +11,7 @@ namespace WebApplication1.Data
         }
 
         public DbSet<Albums> Albums{ get; set; }
+        public DbSet<Artist> Artist { get; set; }
         
     }
 }
