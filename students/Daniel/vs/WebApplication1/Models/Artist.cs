@@ -6,7 +6,7 @@ namespace WebApplication1.Models
     [Table("Artists")]
     public class Artist
     {
-        
+
         [Column("ArtistID")]
         [Key]
         public int Id { get; set; }
