@@ -13,8 +13,6 @@ namespace WebApplication1.Data
 
         public DbContextClass DbContextClass { get; }
 
-       
-
         public IEnumerable<Artist> GetAllArtists()
         {
             var result = DbContextClass.Artist.ToArray();
