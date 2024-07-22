@@ -1,13 +1,69 @@
-﻿@model List<test4.Models.Album>
-
-@{
+﻿@{
+    List < Album > a = ViewBag.List;
     ViewData["Title"] = "Albumy";
 }
 <h1>@ViewData["Title"]</h1>
 
-@foreach( var m in Model)
-{
-    <p>
-        @m.Id @m.MadeIn @m.Price @m.AlbumName @m.Amount
-    </p>
-}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Album Name
+            </th>
+@*             <th>
+                Author Name
+            </th> *@
+            <th>
+                Made In
+            </th>
+            <th>
+               Year Relese
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Amount
+            </th>
+      </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in a)
+        {
+            <tr>
+                <td>
+                    @m.Id
+                </td>
+                <td>
+                    @m.AlbumName
+                </td>
+@*                 <td>
+                    @m.Name
+                </td> *@
+                <td>
+                    @m.MadeIn
+                </td>
+                <td>
+                    @m.YearReleaseAlbum
+                </td>
+                <td>
+                    @m.Price
+                </td>
+                <td>
+                    @m.Amount
+                </td>
+                <td>
+                    <a asp-action="EditAlbum" asp-route-id="@m.Id">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="DeleteAlbum" asp-route-id="@m.Id">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

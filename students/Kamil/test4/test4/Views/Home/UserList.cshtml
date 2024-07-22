@@ -1,0 +1,65 @@
+﻿@model List<test4.Models.Users>
+
+@{
+    ViewData["Title"] = "Users";
+}
+<h1>@ViewData["Title"]</h1>
+
+@* @foreach (var a in Model)
+{
+    <p>
+        @a.Id @a.Name @a.LanstName @a.Password <a asp-action="EditUser" asp-route-id="@a.Id">Edit</a>   <a asp-action="AlbumyBuy" asp-route-id="@a.Id">Buy</a> 
+    </p>
+} *@
+   <table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                LastName
+            </th>
+            <th>
+                Password
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+<tbody>
+@foreach (var a in Model)
+{
+            if(a.Id == 1 )
+            {
+                continue;
+            }
+            <tr>
+        <td>
+            @a.Id  
+        </td>
+        <td>
+            @a.Name  
+        </td>
+        <td>
+            @a.LanstName  
+        </td>
+        <td>
+            @a.Password  
+        </td>
+        <td>
+            <a asp-action="EditUser" asp-route-id="@a.Id">Edit</a>  
+
+        </td>
+        <td>
+            <a asp-action="AlbumyBuy" asp-route-id="@a.Id">Buy</a>
+        </td>
+        <td>
+            <a asp-action="DeleteUser" asp-route-id="@a.Id">Delete</a>
+        </td>
+    </tr>
+}
+    </tbody>
+</table>

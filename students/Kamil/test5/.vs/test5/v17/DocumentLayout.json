@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{334FBE5E-CB8D-49C3-934B-D4004976F954}|test5.Web\\test5.Web.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test5\\test5.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334FBE5E-CB8D-49C3-934B-D4004976F954}|test5.Web\\test5.Web.csproj|solutionrelative:test5.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 123,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test5\\test5.Web\\Program.cs",
+              "RelativeDocumentMoniker": "test5.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test5\\test5.Web\\Program.cs",
+              "RelativeToolTip": "test5.Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:43:24.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
