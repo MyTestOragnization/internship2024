@@ -4,9 +4,9 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Data
 {
-
     public class SongRepository 
     {
+        
         private SqlConnection sqlConnection;
         static string connectionString = "Server=L-01452019\\SQL2022;Database=LyricsWorld1;Trusted_Connection=True;TrustServerCertificate=True;";
 
@@ -18,21 +18,22 @@ namespace WebApplication1.Data
                 SqlCommand cmd = new SqlCommand("GetAllSongs", sqlConnection);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
-                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                DataTable dataTable = new DataTable();
-
-                adapter.Fill(dataTable);
-
-                foreach (DataRow row in dataTable.Rows)
+                using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                 {
-                    piosenka.Add(new Piosenka
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+
+                    foreach (DataRow row in dataTable.Rows)
                     {
-                        SongID = Convert.ToInt32(row["SongID"]),
-                        SongTitle = row["SongTitle"].ToString(),
-                        SongDuration = Convert.ToInt32(row["SongDuration"]),
-                        SongLyrics = row["SongLyrics"].ToString(),
-                        SongGenre = row["SongGenre"].ToString()
-                    });
+                        piosenka.Add(new Piosenka
+                        {
+                            SongID = Convert.ToInt32(row["SongID"]),
+                            SongTitle = row["SongTitle"].ToString(),
+                            SongDuration = Convert.ToInt32(row["SongDuration"]),
+                            SongLyrics = row["SongLyrics"].ToString(),
+                            SongGenre = row["SongGenre"].ToString()
+                        });
+                    }
                 }
                 return piosenka;
             }
@@ -73,37 +74,38 @@ namespace WebApplication1.Data
                 List<Piosenka> piosenka = new List<Piosenka>();
                 SqlCommand cmd = new SqlCommand("GetSongById", sqlConnection);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
-
                 cmd.Parameters.AddWithValue("Id", SongID);
                 sqlConnection.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
 
-
-
-                while (reader.Read())
+                using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    piosenka.Add(new Piosenka()
-                    {
-                        SongID = Convert.ToInt32(reader["SongID"]),
-                        SongTitle = reader["SongTitle"].ToString(),
-                        SongDuration = Convert.ToInt32(reader["SongDuration"]),
-                        SongLyrics = reader["SongLyrics"].ToString(),
-                        SongGenre = reader["SongGenre"].ToString()
-                    });
 
+                    while (reader.Read())
+                    {
+                        piosenka.Add(new Piosenka()
+                        {
+                            SongID = Convert.ToInt32(reader["SongID"]),
+                            SongTitle = reader["SongTitle"].ToString(),
+                            SongDuration = Convert.ToInt32(reader["SongDuration"]),
+                            SongLyrics = reader["SongLyrics"].ToString(),
+                            SongGenre = reader["SongGenre"].ToString()
+                        });
+
+
+                    }
 
                 }
+
                 sqlConnection.Close();
                 return piosenka[0];
             }
         }
 
-
         public bool DeleteSong(int SongID)
         {
             using (sqlConnection = new SqlConnection(connectionString))
             {
-                SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID=" + SongID + ";DELETE FROM ConnectDB WHERE IDsong=" + SongID + ";", sqlConnection);
+                SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID=" + SongID);
 
                 sqlConnection.Open();
 
@@ -140,23 +142,8 @@ namespace WebApplication1.Data
                 catch { sqlConnection.Close(); return false; }
             }
         }
+
+        
+
     }
 }
-
-
-
-//try
-//{
-//    string connectionString = "Server=L-01452019\\SQL2022;Database=LyricsWorld1;Trusted_Connection=True;TrustServerCertificate=True;";
-//    string query = "SELECT * FROM dbo.Songs";
-
-//    using (SqlConnection conn = new SqlConnection(connectionString))
-//    {
-//        conn.Open();
-//        Console.WriteLine("jest ok");
-//    }
-//}
-//catch (Exception ex)
-//{
-//    Console.WriteLine($"Something Went Wrong: {ex.Message}");
-//}
