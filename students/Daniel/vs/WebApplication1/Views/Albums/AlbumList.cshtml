@@ -1,6 +1,6 @@
 ﻿@using WebApplication1.Formatters
 
-@model IEnumerable<WebApplication1.Models.Albums>
+@model IEnumerable<Albums>
 
 @{
     ViewData["Title"] = "View";
@@ -10,51 +10,27 @@
 <h1>View</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="AddView">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.AlbumID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AlbumTitle)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateAdded)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AlbumCover)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.AlbumType)
-            </th>
-            <th></th>
+            <td>Title</td>
+            <td>Date added</td>
+            <td>Cover</td>
+            <td>Type</td>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>@item.AlbumTitle</td>
+            <td>@dateformat.DateToStrng(@item.DateAdded)</td>
+            <td>@item.AlbumCover</td>
+            <td>@item.AlbumType</td>
             <td>
-                @Html.DisplayFor(modelItem => item.AlbumID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlbumTitle)
-            </td>
-            <td>
-                @dateformat.DateToStrng(item.DateAdded)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlbumCover)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlbumType)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                <button><a asp-action="Edit" asp-route-id="@item.AlbumID">Edit</a></button>
+                <button><a asp-action="Delete" asp-route-id="@item.AlbumID">Delete</a></button>
             </td>
         </tr>
 }

@@ -54,7 +54,7 @@ namespace test1.Controllers
                 }
                 return RedirectToAction("Index");
             }
-            catch (Exception ex)
+            catch
             {
                 return View();
             }
@@ -101,6 +101,10 @@ namespace test1.Controllers
         public ActionResult AlbumList() 
         {
             return RedirectToAction("AlbumList", "Albums");
+        }
+        public ActionResult ArtistList() 
+        {
+            return RedirectToAction("ArtistList", "Artist");
         }
         
         public IActionResult AdminPanel()

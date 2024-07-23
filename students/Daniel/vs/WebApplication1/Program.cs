@@ -1,4 +1,6 @@
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using WebApplication1.Data;
 
 namespace WebApplication1
 {
@@ -13,6 +15,21 @@ namespace WebApplication1
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
+            builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
+
+            var provider = builder.Services.BuildServiceProvider();
+            var configuration = provider.GetService<IConfiguration>();
+            builder.Services.AddCors(options =>
+            {
+                var frontend_url = configuration.GetValue<string>("fontend_url");
+
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins(frontend_url).AllowAnyMethod().AllowAnyHeader();
+                });
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,7 +44,7 @@ namespace WebApplication1
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseCors();
             app.UseAuthorization();
 
             app.MapControllerRoute(
@@ -38,3 +55,4 @@ namespace WebApplication1
         }
     }
 }
+

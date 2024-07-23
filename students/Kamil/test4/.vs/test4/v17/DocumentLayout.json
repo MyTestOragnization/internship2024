@@ -1,38 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\",
+  "WorkspaceRootPath": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\dal\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\dal\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\controllers\\api\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\controllers\\api\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\views\\home\\albumy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\home\\albumy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\views\\home\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\home\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\dal\\albumefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\dal\\albumefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\test4.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\test4.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\dal\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\dal\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\dal\\ialbumefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\dal\\ialbumefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\dal\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\dal\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\net\\test4\\test4\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\views\\home\\addalbum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\home\\addalbum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\dal\\isaleefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\dal\\isaleefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\views\\home\\sale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\home\\sale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\kamil\\test4\\test4\\models\\salenice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AFAE9C8-0F7C-4DF3-A834-B379D86C6DAF}|test4\\test4.csproj|solutionrelative:test4\\models\\salenice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +74,202 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "test4",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\test4.csproj",
-              "RelativeDocumentMoniker": "test4\\test4.csproj",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\test4.csproj",
-              "RelativeToolTip": "test4\\test4.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-15T19:07:26.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlbumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Dal\\AlbumRepository.cs",
-              "RelativeDocumentMoniker": "test4\\Dal\\AlbumRepository.cs",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Dal\\AlbumRepository.cs",
-              "RelativeToolTip": "test4\\Dal\\AlbumRepository.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAWwCAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T18:56:31.074Z",
+              "DocumentIndex": 2,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\UserList.cshtml",
+              "RelativeDocumentMoniker": "test4\\Views\\Home\\UserList.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\UserList.cshtml",
+              "RelativeToolTip": "test4\\Views\\Home\\UserList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T11:55:51.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Album.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Models\\Album.cs",
-              "RelativeDocumentMoniker": "test4\\Models\\Album.cs",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Models\\Album.cs",
-              "RelativeToolTip": "test4\\Models\\Album.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Title": "AlbumEFRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\AlbumEFRepository.cs",
+              "RelativeDocumentMoniker": "test4\\Dal\\AlbumEFRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\AlbumEFRepository.cs",
+              "RelativeToolTip": "test4\\Dal\\AlbumEFRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T13:15:46.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T12:13:06.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "test4\\Dal\\AlbumRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\AlbumRepository.cs",
+              "RelativeToolTip": "test4\\Dal\\AlbumRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:48:58.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAlbumEFRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\IAlbumEFRepository.cs",
+              "RelativeDocumentMoniker": "test4\\Dal\\IAlbumEFRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\IAlbumEFRepository.cs",
+              "RelativeToolTip": "test4\\Dal\\IAlbumEFRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:26:57.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "test4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "test4\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T09:08:57.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddAlbum.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\AddAlbum.cshtml",
+              "RelativeDocumentMoniker": "test4\\Views\\Home\\AddAlbum.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\AddAlbum.cshtml",
+              "RelativeToolTip": "test4\\Views\\Home\\AddAlbum.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T09:03:27.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "test4\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Models\\Author.cs",
+              "RelativeToolTip": "test4\\Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T09:18:36.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ISaleEFRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\ISaleEFRepository.cs",
+              "RelativeDocumentMoniker": "test4\\Dal\\ISaleEFRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\ISaleEFRepository.cs",
+              "RelativeToolTip": "test4\\Dal\\ISaleEFRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:12:59.611Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "test4\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Controllers\\HomeController.cs",
               "RelativeToolTip": "test4\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAwAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T11:01:42.765Z",
+              "WhenOpened": "2024-07-23T07:22:32.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Albumy.cshtml",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\Home\\Albumy.cshtml",
-              "RelativeDocumentMoniker": "test4\\Views\\Home\\Albumy.cshtml",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\Home\\Albumy.cshtml",
-              "RelativeToolTip": "test4\\Views\\Home\\Albumy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T18:22:27.893Z",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Controllers\\api\\UserController.cs",
+              "RelativeDocumentMoniker": "test4\\Controllers\\api\\UserController.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Controllers\\api\\UserController.cs",
+              "RelativeToolTip": "test4\\Controllers\\api\\UserController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAEcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T12:16:28.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Test.cshtml",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\Home\\Test.cshtml",
-              "RelativeDocumentMoniker": "test4\\Views\\Home\\Test.cshtml",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\Home\\Test.cshtml",
-              "RelativeToolTip": "test4\\Views\\Home\\Test.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T11:31:27.969Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "test4\\Dal\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Dal\\UsersRepository.cs",
+              "RelativeToolTip": "test4\\Dal\\UsersRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:43:02.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "test4\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "test4\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAB8AAAB5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T11:52:55.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "test4\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\NET\\test4\\test4\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "test4\\Views\\_ViewStart.cshtml",
+              "DocumentIndex": 15,
+              "Title": "SaleNice.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Models\\SaleNice.cs",
+              "RelativeDocumentMoniker": "test4\\Models\\SaleNice.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Models\\SaleNice.cs",
+              "RelativeToolTip": "test4\\Models\\SaleNice.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:06:59.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "test4\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Models\\Sale.cs",
+              "RelativeToolTip": "test4\\Models\\Sale.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T11:06:56.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sale.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\Sale.cshtml",
+              "RelativeDocumentMoniker": "test4\\Views\\Home\\Sale.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\Sale.cshtml",
+              "RelativeToolTip": "test4\\Views\\Home\\Sale.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T18:14:36.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T10:35:32.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Program.cs",
+              "RelativeDocumentMoniker": "test4\\Program.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Program.cs",
+              "RelativeToolTip": "test4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T10:34:26.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "test4\\Views\\Home\\AddUser.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Kamil\\test4\\test4\\Views\\Home\\AddUser.cshtml",
+              "RelativeToolTip": "test4\\Views\\Home\\AddUser.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwDEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T07:42:23.583Z"
             }
           ]
         }

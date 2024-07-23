@@ -1,34 +1,107 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\",
   "Documents": [
+    {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\songs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\songs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\users\\kamil\\onedrive\\documents\\praktyki\\git\\internship2024\\students\\daniel\\vs\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\songs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\songs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\iartistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\iartistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\artist\\artistlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\artist\\artistlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\albums\\albumlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\albums\\albumlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\albums\\addview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\albums\\addview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\views\\albums\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:views\\albums\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepo\\internship2024\\internship2024\\students\\daniel\\vs\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+>>>>>>> 46e82234d11ddcb89b254ec1c0d4792001f5549a
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +111,307 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T11:53:53.82Z",
+              "WhenOpened": "2024-07-15T11:17:03.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SongRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
+              "RelativeDocumentMoniker": "Data\\SongRepository.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
+              "RelativeToolTip": "Data\\SongRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAtwA4AAABHAAAA",
+=======
+              "DocumentIndex": 5,
+              "Title": "ArtistRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ArtistRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ArtistRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ArtistRepository.cs",
+              "RelativeToolTip": "Data\\ArtistRepository.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswEQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T12:14:12.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
-              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Home\\Edit.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T11:17:03.62Z",
+              "Title": "ArtistsController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArtistsController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
+              "RelativeToolTip": "Controllers\\ArtistsController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwA0AAAATAAAA",
+>>>>>>> 46e82234d11ddcb89b254ec1c0d4792001f5549a
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:28:18.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SongRepository.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
-              "RelativeDocumentMoniker": "Data\\SongRepository.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
-              "RelativeToolTip": "Data\\SongRepository.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAjwD0AAAAMAAAA",
+<<<<<<< HEAD
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T07:47:19.048Z"
+=======
+              "DocumentIndex": 3,
+              "Title": "ArtistController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArtistController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistController.cs",
+              "RelativeToolTip": "Controllers\\ArtistController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T08:58:05.015Z",
+              "WhenOpened": "2024-07-17T12:04:39.432Z",
+              "EditorCaption": ""
+>>>>>>> 46e82234d11ddcb89b254ec1c0d4792001f5549a
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+<<<<<<< HEAD
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T07:40:54.352Z"
+            },
+            {
+              "$type": "Document",
+=======
+              "Title": "AlbumsController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\AlbumsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlbumsController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\AlbumsController.cs",
+              "RelativeToolTip": "Controllers\\AlbumsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:04:45.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Models\\Artist.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Artist.cs",
+              "RelativeToolTip": "Models\\Artist.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T12:23:00.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAEwBMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T12:22:23.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> 46e82234d11ddcb89b254ec1c0d4792001f5549a
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+<<<<<<< HEAD
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwF8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T07:40:13.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Songs.cshtml",
+              "DocumentMoniker": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Songs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Songs.cshtml",
+              "ToolTip": "C:\\Users\\kamil\\OneDrive\\Documents\\Praktyki\\git\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Songs.cshtml",
+              "RelativeToolTip": "Views\\Home\\Songs.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T07:40:00.045Z"
+=======
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T12:20:47.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-15T07:47:19.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T07:40:54.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAgwEIAAAAAAAAA",
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data\\AlbumRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
+              "RelativeToolTip": "Data\\AlbumRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T07:40:13.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T10:03:25.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Songs.cshtml",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Songs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Songs.cshtml",
-              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Songs.cshtml",
-              "RelativeToolTip": "Views\\Home\\Songs.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "DocumentIndex": 7,
+              "Title": "IArtistRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IArtistRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IArtistRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IArtistRepository.cs",
+              "RelativeToolTip": "Data\\IArtistRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T12:12:28.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Albums.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Albums.cs",
+              "RelativeDocumentMoniker": "Models\\Albums.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Albums.cs",
+              "RelativeToolTip": "Models\\Albums.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:12:11.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AlbumList.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Albums\\AlbumList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Albums\\AlbumList.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Albums\\AlbumList.cshtml",
+              "RelativeToolTip": "Views\\Albums\\AlbumList.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T07:40:00.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T10:05:57.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArtistList.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Artist\\ArtistList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Artist\\ArtistList.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Artist\\ArtistList.cshtml",
+              "RelativeToolTip": "Views\\Artist\\ArtistList.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T12:09:26.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbContextClass.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\DbContextClass.cs",
+              "RelativeDocumentMoniker": "Data\\DbContextClass.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\DbContextClass.cs",
+              "RelativeToolTip": "Data\\DbContextClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T12:11:27.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminPanel.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AdminPanel.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\AdminPanel.cshtml",
+              "RelativeToolTip": "Views\\Home\\AdminPanel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T12:20:31.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IAlbumRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs",
+              "RelativeToolTip": "Data\\IAlbumRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T10:03:09.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddView.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Albums\\AddView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Albums\\AddView.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Albums\\AddView.cshtml",
+              "RelativeToolTip": "Views\\Albums\\AddView.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T10:07:36.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T11:59:30.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Albums\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Albums\\Edit.cshtml",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Albums\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Albums\\Edit.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowBQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T10:12:15.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepo\\internship2024\\internship2024\\students\\Daniel\\vs\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-17T10:12:43.723Z"
+>>>>>>> 46e82234d11ddcb89b254ec1c0d4792001f5549a
             }
           ]
         }
