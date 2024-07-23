@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    min-width: 0;
+    min-height: 0;
+}
+.HomeButton
+{
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HomeButton > img
+{
+    object-fit: cover;
+    width: 100%;
+
+}
+.ProfileButton
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    grid-column: 5;
+    background: none;
+    border: none;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    font-size:xx-large;
+}
+.coloredbutton > object
+{
+    object-fit: cover;
+    width: 30%;
+}
+.coloredbutton
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: auto;
+    min-width: auto;
+    height: 90%;
+    width: 100%;
+    background-color: #8050ff;
+    border-radius: 8px;
+}
