@@ -110,8 +110,7 @@
               "RelativeToolTip": "test4\\Views\\Home\\AlbumyBuy.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-19T12:17:58.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T12:17:58.384Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "test4\\Dal\\SaleEFRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAHoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T11:06:12.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T11:06:12.901Z"
             },
             {
               "$type": "Document",
@@ -136,8 +134,7 @@
               "RelativeToolTip": "test4\\Models\\MTMAlbumAuthor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T11:23:27.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T11:23:27.396Z"
             },
             {
               "$type": "Document",
@@ -149,8 +146,7 @@
               "RelativeToolTip": "test4\\Dal\\DbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T11:22:05.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T11:22:05.261Z"
             },
             {
               "$type": "Document",
@@ -162,8 +158,7 @@
               "RelativeToolTip": "test4\\Models\\Album.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T08:20:08.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T08:20:08.737Z"
             },
             {
               "$type": "Document",
@@ -188,8 +183,7 @@
               "RelativeToolTip": "test4\\Controllers\\HomeController.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAmwD0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:34:37.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T10:34:37.117Z"
             },
             {
               "$type": "Document",
@@ -201,8 +195,7 @@
               "RelativeToolTip": "test4\\Views\\Home\\UserList.cshtml",
               "ViewState": "AQIAACUAAAAAAAAAAAAqwDQAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T11:55:51.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T11:55:51.575Z"
             },
             {
               "$type": "Document",
@@ -214,8 +207,7 @@
               "RelativeToolTip": "test4\\Controllers\\api\\UserController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAASwB4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T12:16:28.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T12:16:28.553Z"
             },
             {
               "$type": "Document",
@@ -227,8 +219,7 @@
               "RelativeToolTip": "test4\\Dal\\UsersRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T07:43:02.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T07:43:02.782Z"
             },
             {
               "$type": "Document",
@@ -240,8 +231,7 @@
               "RelativeToolTip": "test4\\Dal\\AlbumEFRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T12:13:06.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T12:13:06.427Z"
             },
             {
               "$type": "Document",
@@ -253,8 +243,7 @@
               "RelativeToolTip": "test4\\Dal\\AlbumRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T11:48:58.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T11:48:58.82Z"
             },
             {
               "$type": "Document",
@@ -266,8 +255,7 @@
               "RelativeToolTip": "test4\\Dal\\IAlbumEFRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T11:26:57.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T11:26:57.325Z"
             },
             {
               "$type": "Document",
