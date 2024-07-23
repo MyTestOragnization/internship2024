@@ -1,0 +1,56 @@
+﻿@model List<Test1.Models.GameToPub>
+
+
+@{
+    ViewData["Title"] = "Publishers";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Publishers</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Country
+                </th>
+                <th>
+                    CEO
+                </th>
+                <th>
+                    Estabilished
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var gametopub in Model)
+            {
+                <tr>
+                    <td>
+                        @gametopub.Id
+                    </td>
+                    <td>
+                        @gametopub.Name
+                    </td>
+                    <td>
+                        @gametopub.Country
+                    </td>
+                    <td>
+                        @gametopub.CEO
+                    </td>
+                    <td>
+                        @gametopub.Estabilished
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

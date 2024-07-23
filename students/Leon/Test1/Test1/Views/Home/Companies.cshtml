@@ -1,0 +1,62 @@
+﻿@model List<Test1.Models.Company>
+
+    
+@{
+    ViewData["Title"] = "Companies";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Companies</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Country
+                </th>
+                <th>
+                    CEO
+                </th>
+                <th>
+                    Estabilished
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var company in Model)
+            {
+                <tr>
+                    <td>
+                        @company.Id
+                    </td>
+                    <td>
+                        @company.Name
+                    </td>
+                    <td>
+                        @company.Country
+                    </td>
+                    <td>
+                        @company.CEO 
+                    </td>
+                    <td>
+                        @company.Estabilished
+                    </td>
+                    <td>
+                        <a asp-action="Developed" asp-route-companyId="@company.Id">Developed</a>
+                        <a asp-action="Published" asp-route-companyId="@company.Id">Published</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

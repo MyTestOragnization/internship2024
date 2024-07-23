@@ -1,0 +1,516 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\dal\\sgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\dal\\sgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\published.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\published.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\gamedeveloper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\gamedeveloper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\gamepublisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\gamepublisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\searchgames.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\searchgames.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\dal\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\dal\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\models\\sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\models\\sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\dal\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\dal\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\dal\\companytopubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\dal\\companytopubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\dal\\gametopubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\dal\\gametopubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\dal\\companytodevrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\dal\\companytodevrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\bd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\bd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\companies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\companies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\views\\home\\developed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\views\\home\\developed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\models\\gametodev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\models\\gametodev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\models\\comtopub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\models\\comtopub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\models\\comtodev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\models\\comtodev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\models\\gametopub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\models\\gametopub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test1\\test1\\test1\\dal\\gametodevrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFE0AB4-5CA4-4403-BC97-9A6097145C10}|Test1\\Test1.csproj|solutionrelative:test1\\dal\\gametodevrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SGRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\SGRepository.cs",
+              "RelativeDocumentMoniker": "Test1\\DAL\\SGRepository.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\SGRepository.cs",
+              "RelativeToolTip": "Test1\\DAL\\SGRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwDUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:38:53.953Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:40:47.772Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Test1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Test1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAADwv10AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:15:11.488Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T11:15:03.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchGames.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\SearchGames.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\SearchGames.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\SearchGames.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\SearchGames.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T09:15:25.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "Test1\\DAL\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\CompanyRepository.cs",
+              "RelativeToolTip": "Test1\\DAL\\CompanyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:40:36.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GamePublisher.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\GamePublisher.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\GamePublisher.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\GamePublisher.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\GamePublisher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T09:46:32.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameDeveloper.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\GameDeveloper.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\GameDeveloper.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\GameDeveloper.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\GameDeveloper.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:40:02.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:40:24.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Games.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Games.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\Games.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Games.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\Games.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADYAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T07:10:45.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\GameRepository.cs",
+              "RelativeDocumentMoniker": "Test1\\DAL\\GameRepository.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\GameRepository.cs",
+              "RelativeToolTip": "Test1\\DAL\\GameRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:05:38.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Published.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Published.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\Published.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Published.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\Published.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T07:10:56.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SG.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\SG.cs",
+              "RelativeDocumentMoniker": "Test1\\Models\\SG.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\SG.cs",
+              "RelativeToolTip": "Test1\\Models\\SG.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:38:25.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompanyToPubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\CompanyToPubRepository.cs",
+              "RelativeDocumentMoniker": "Test1\\DAL\\CompanyToPubRepository.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\CompanyToPubRepository.cs",
+              "RelativeToolTip": "Test1\\DAL\\CompanyToPubRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwCoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T12:36:41.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompanyToDevRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\CompanyToDevRepository.cs",
+              "RelativeDocumentMoniker": "Test1\\DAL\\CompanyToDevRepository.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\CompanyToDevRepository.cs",
+              "RelativeToolTip": "Test1\\DAL\\CompanyToDevRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:48:58.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameToPubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\GameToPubRepository.cs",
+              "RelativeDocumentMoniker": "Test1\\DAL\\GameToPubRepository.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\GameToPubRepository.cs",
+              "RelativeToolTip": "Test1\\DAL\\GameToPubRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:40:41.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Test1\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\Game.cs",
+              "RelativeToolTip": "Test1\\Models\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T09:46:04.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ComToPub.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\ComToPub.cs",
+              "RelativeDocumentMoniker": "Test1\\Models\\ComToPub.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\ComToPub.cs",
+              "RelativeToolTip": "Test1\\Models\\ComToPub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:10:12.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GameToDev.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\GameToDev.cs",
+              "RelativeDocumentMoniker": "Test1\\Models\\GameToDev.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\GameToDev.cs",
+              "RelativeToolTip": "Test1\\Models\\GameToDev.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:10:17.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Test1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:49:24.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BD.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\BD.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\BD.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\BD.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\BD.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:56:46.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Test1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:49:29.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:49:31.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T08:49:32.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Companies.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Companies.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\Companies.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Companies.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\Companies.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T07:15:34.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GameToPub.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\GameToPub.cs",
+              "RelativeDocumentMoniker": "Test1\\Models\\GameToPub.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\GameToPub.cs",
+              "RelativeToolTip": "Test1\\Models\\GameToPub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:23:25.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Developed.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Developed.cshtml",
+              "RelativeDocumentMoniker": "Test1\\Views\\Home\\Developed.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Views\\Home\\Developed.cshtml",
+              "RelativeToolTip": "Test1\\Views\\Home\\Developed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-19T07:24:10.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ComToDev.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\ComToDev.cs",
+              "RelativeDocumentMoniker": "Test1\\Models\\ComToDev.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\Models\\ComToDev.cs",
+              "RelativeToolTip": "Test1\\Models\\ComToDev.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:23:43.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GameToDevRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\GameToDevRepository.cs",
+              "RelativeDocumentMoniker": "Test1\\DAL\\GameToDevRepository.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test1\\Test1\\Test1\\DAL\\GameToDevRepository.cs",
+              "RelativeToolTip": "Test1\\DAL\\GameToDevRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBgAAADDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:08:59.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
