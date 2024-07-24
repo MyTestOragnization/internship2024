@@ -23,7 +23,7 @@ namespace WebApplication1
             var configuration = provider.GetService<IConfiguration>();
             builder.Services.AddCors(options =>
             {
-                var frontend_url = "http://localhost:3005";
+                var frontend_url = configuration.GetValue<string>("frontend_url");
 
                 options.AddDefaultPolicy(builder =>
                 {
