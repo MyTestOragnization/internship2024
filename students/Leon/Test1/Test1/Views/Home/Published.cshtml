@@ -1,0 +1,56 @@
+﻿@model List<Test1.Models.ComToPub>
+
+
+@{
+    ViewData["Title"] = "Published Games";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Published Games</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Genre
+                </th>
+                <th>
+                    Release
+                </th>
+                <th>
+                    Price $
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var comtopub in Model)
+            {
+                <tr>
+                    <td>
+                        @comtopub.Id
+                    </td>
+                    <td>
+                        @comtopub.Name
+                    </td>
+                    <td>
+                        @comtopub.Genre
+                    </td>
+                    <td>
+                        @comtopub.Release
+                    </td>
+                    <td>
+                        @comtopub.Price
+                    </td>
+                    <td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
