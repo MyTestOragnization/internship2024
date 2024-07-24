@@ -16,7 +16,7 @@ export const ArtistsList = createSlice({
     extraReducers: (builder) => {
         builder
         .addCase(getArtists.pending, () => {console.log("fetching data")})
-        .addCase(getArtists.fulfilled, (state, action) => {state.data.push(action.payload)})
+        .addCase(getArtists.fulfilled, (state, action) => {state.data =action.payload})
     }
 })
 
