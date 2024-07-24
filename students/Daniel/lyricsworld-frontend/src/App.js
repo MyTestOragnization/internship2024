@@ -9,8 +9,9 @@ function App() {
   
   const artist = useSelector((state) => state.Artist)
   const dispatch = useDispatch()
-  useEffect(()=>{dispatch(getArtists)},[])
-  console.log(artist)
+  useEffect(()=>{dispatch(getArtists())},[])
+  console.log(artist.data)
+  
   return (
     <div className="App">
       <Header />
@@ -18,10 +19,10 @@ function App() {
         <h1>LyricsWorld</h1>
         <h2>Music, the Coolest Language of All</h2>
         <a>Start Searching</a>
-        
       </main>
+      
     </div>
-  );
+      );
 }
 
 export default App;

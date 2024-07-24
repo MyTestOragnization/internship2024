@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\githubrepository\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +66,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "IAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IAlbumRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs*",
+              "RelativeToolTip": "Data\\IAlbumRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:50:30.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data\\AlbumRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
+              "RelativeToolTip": "Data\\AlbumRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAADwvzgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:37:31.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlbumsController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\AlbumsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlbumsController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\AlbumsController.cs*",
+              "RelativeToolTip": "Controllers\\AlbumsController.cs*",
+              "ViewState": "AQIAACMAAAAAAAAAAADgvzEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:32:58.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -71,19 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ArtistsController.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArtistsController.cs",
               "ToolTip": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
               "RelativeToolTip": "Controllers\\ArtistsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T10:57:54.525Z"
+              "WhenOpened": "2024-07-23T10:57:54.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Artist.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Artist.cs",
               "RelativeDocumentMoniker": "Models\\Artist.cs",
@@ -95,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -107,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Albums.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Albums.cs",
               "RelativeDocumentMoniker": "Models\\Albums.cs",
@@ -119,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Edit.cshtml",
@@ -131,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "SongRepository.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
               "RelativeDocumentMoniker": "Data\\SongRepository.cs",
@@ -143,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -156,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -168,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -181,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Songs.cshtml",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Views\\Home\\Songs.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Songs.cshtml",

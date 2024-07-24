@@ -27,11 +27,18 @@ namespace WebApplication1.Data
             return album;
         }
 
-        public bool SaveEdited(Albums album)
+        public bool EditAlbum (int id, Albums albums)
         {
-            var result = DbContext.Update(album); 
-            DbContext.SaveChanges();
-            return result != null;
+            if (albums.AlbumID != id)
+            {
+                return false;
+            }
+            if (DbContext.Albums.Update(albums)!= null)
+            {
+                DbContext.SaveChanges();
+                return true;
+            }
+            return false;
         }
 
         public bool AddNewAlbum(Albums album)
@@ -44,9 +51,15 @@ namespace WebApplication1.Data
         public bool DeleteAlbum(int id)
         {
             var album = GetOneAlbum(id);
-            var result = DbContext.Remove(album);
-            DbContext.SaveChanges();
-            return result != null;
+            if (album != null)
+            {
+                if (DbContext.Remove(album) != null)
+                {
+                    DbContext.SaveChanges();
+                    return true;
+                }
+            }
+            return false;
         }
         
     }
