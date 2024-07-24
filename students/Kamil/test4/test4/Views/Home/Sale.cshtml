@@ -1,0 +1,59 @@
+﻿
+@{
+    IEnumerable<SaleNice> a = ViewBag.List;
+}
+
+<h1>Sale</h1>   
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Id Album
+            </th>
+            <th>
+                Album Name
+            </th>
+            <th>
+                Id User
+            </th>
+            <th>
+                User Name
+            </th>
+            <th>
+                Price
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in a)
+        {
+            <tr>
+                <td>
+                    @m.Id
+                </td>
+                <td>
+                    @m.IdAlbum
+                </td>
+                <td>
+                       @m.AlbumName  
+                </td>
+                <td>
+                    @m.IdUser
+                </td>
+                <td>
+                     @m.Name 
+                </td>
+                <td>
+                    @m.Price
+                </td>
+                <td>
+                    <a asp-action="AfterDeletSale" asp-route-id="@m.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

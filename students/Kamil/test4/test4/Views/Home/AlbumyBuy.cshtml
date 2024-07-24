@@ -1,0 +1,59 @@
+﻿
+
+@{
+    int IdUser = ViewBag.Id;
+    List < Album > list = ViewBag.list;
+    ViewData["Title"] = "Albumy";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Album Name
+            </th>
+            <th>
+                Made In
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Amount
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in list)
+        {
+            @if(m.Amount < 1)
+            {
+                continue;
+            }
+            <tr>
+                <td>
+                    @m.Id
+                </td>
+                <td>
+                    @m.AlbumName
+                </td>
+                <td>
+                    @m.MadeIn
+                </td>
+                <td>
+                    @m.Price
+                </td>
+                <td>
+                    @m.Amount
+                </td>
+                <td>
+                    <a asp-action="BeforeSale" asp-route-idAlbum="@m.Id" asp-route-idUser="@IdUser">Buy</a>
+                </td>
+            </tr>
+        }
+    </tbody>
