@@ -10,8 +10,10 @@ namespace WebApplication1.Data
             
         }
 
-        public DbSet<Albums> Albums{ get; set; }
+        public DbSet<Album> Albums{ get; set; }
         public DbSet<Artist> Artist { get; set; }
+        public DbSet<Song> Songs { get; set; }
+        public DbSet<User> Users { get; set; }
         
     }
 }

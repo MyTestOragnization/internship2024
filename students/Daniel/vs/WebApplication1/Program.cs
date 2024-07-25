@@ -1,6 +1,7 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
+using WebApplication1.TokenFolder;
 
 namespace WebApplication1
 {
@@ -18,6 +19,9 @@ namespace WebApplication1
             builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
             builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
+            builder.Services.AddScoped<ISongRepository, SongRepository>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<JwtConfig>();
 
             var provider = builder.Services.BuildServiceProvider();
             var configuration = provider.GetService<IConfiguration>();

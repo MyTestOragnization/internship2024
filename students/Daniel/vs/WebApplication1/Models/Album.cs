@@ -3,7 +3,7 @@ using System.ComponentModel.Design;
 
 namespace WebApplication1.Models
 {
-    public class Albums
+    public class Album
     {
         [Key]
         public int AlbumID { get; set; }
@@ -16,11 +16,11 @@ namespace WebApplication1.Models
         [Required]
         public string AlbumType { get; set; }
 
-        public Albums() 
+        public Album() 
         { 
         }
             
-        public Albums(int AlbumID, string AlbumTitle,DateTime DateAdded, string AlbumCover, string AlbumType)
+        public Album(int AlbumID, string AlbumTitle,DateTime DateAdded, string AlbumCover, string AlbumType)
         {
             AlbumID = this.AlbumID;
             AlbumTitle = this.AlbumTitle;

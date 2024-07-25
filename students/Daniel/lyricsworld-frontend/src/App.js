@@ -3,6 +3,7 @@ import Header from "./modules/Header"
 import React, {useEffect} from 'react';
 import Artist from './modules/Artist'
 import Album from './modules/Album'
+import Song from './modules/Song'
 function App() {
   
   return (
@@ -14,6 +15,7 @@ function App() {
         <a>Start Searching</a>
       <Artist /> 
       <Album />
+      <Song />
       </main> 
      
     </div>

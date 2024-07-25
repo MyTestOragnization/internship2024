@@ -8,20 +8,20 @@ namespace WebApplication1.Data
     {
         public ArtistRepository(DbContextClass dbContextClass)
         {
-            DbContextClass = dbContextClass;
+            DbContext = dbContextClass;
         }
 
-        public DbContextClass DbContextClass { get; }
+        public DbContextClass DbContext { get; }
 
         public IEnumerable<Artist> GetAllArtists()
         {
-            var result = DbContextClass.Artist.ToArray();
+            var result = DbContext.Artist.ToList();
             return result;
         }
 
         public Artist GetOneArtist(int id)
         {
-            var result = DbContextClass.Artist.Find(id);
+            var result = DbContext.Artist.Find(id);
             return result;
         }
 
@@ -29,10 +29,10 @@ namespace WebApplication1.Data
         {
             if (artist.Id == 0)
             {
-                var result = DbContextClass.Add(artist);
+                var result = DbContext.Artist.Add(artist);
                 if (result != null)
                 {
-                    DbContextClass.SaveChanges();
+                    DbContext.SaveChanges();
                     return true;
                 }
             }
@@ -44,9 +44,9 @@ namespace WebApplication1.Data
             var artist = GetOneArtist(id);
             if (artist != null) 
             {
-                if (DbContextClass.Remove(artist) != null)
+                if (DbContext.Artist.Remove(artist) != null)
                 {
-                    DbContextClass.SaveChanges();
+                    DbContext.SaveChanges();
                     return true;
                 }
             }
@@ -60,9 +60,9 @@ namespace WebApplication1.Data
                 return false; 
             }
 
-            if (DbContextClass.Artist.Update(artist) != null)
+            if (DbContext.Artist.Update(artist) != null)
             {
-                    DbContextClass.SaveChanges();
+                DbContext.SaveChanges();
                     return true;
             }
             return false;
