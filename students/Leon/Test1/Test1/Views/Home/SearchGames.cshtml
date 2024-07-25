@@ -1,0 +1,62 @@
+﻿@model List<Test1.Models.SG>
+
+
+@{
+    ViewData["Title"] = "Searched Games";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Games</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Genre
+                </th>
+                <th>
+                    Release
+                </th>
+                <th>
+                    Price $
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var sg in Model)
+            {
+                <tr>
+                    <td>
+                        @sg.Id
+                    </td>
+                    <td>
+                        @sg.Name
+                    </td>
+                    <td>
+                        @sg.Genre
+                    </td>
+                    <td>
+                        @sg.Release
+                    </td>
+                    <td>
+                        @sg.Price
+                    </td>
+                    <td>
+                        <a asp-action="GameDeveloper" asp-route-gameId="@sg.Id">Dev</a>
+                        <a asp-action="GamePublisher" asp-route-gameId="@sg.Id">Pub</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,56 @@
+﻿@model List<Test1.Models.ComToDev>
+
+
+@{
+    ViewData["Title"] = "Developed Games";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Developed Games</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Genre
+                </th>
+                <th>
+                    Release
+                </th>
+                <th>
+                    Price $
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var gametodev in Model)
+            {
+                <tr>
+                    <td>
+                        @gametodev.Id
+                    </td>
+                    <td>
+                        @gametodev.Name
+                    </td>
+                    <td>
+                        @gametodev.Genre
+                    </td>
+                    <td>
+                        @gametodev.Release
+                    </td>
+                    <td>
+                        @gametodev.Price
+                    </td>
+                    <td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

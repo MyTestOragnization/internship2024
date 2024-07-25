@@ -1,0 +1,56 @@
+﻿@model List<Test1.Models.GameToDev>
+
+
+@{
+    ViewData["Title"] = "Developers";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Developers</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Country
+                </th>
+                <th>
+                    CEO
+                </th>
+                <th>
+                    Estabilished
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var gametodev in Model)
+            {
+                <tr>
+                    <td>
+                        @gametodev.Id
+                    </td>
+                    <td>
+                        @gametodev.Name
+                    </td>
+                    <td>
+                        @gametodev.Country
+                    </td>
+                    <td>
+                        @gametodev.CEO
+                    </td>
+                    <td>
+                        @gametodev.Estabilished
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
