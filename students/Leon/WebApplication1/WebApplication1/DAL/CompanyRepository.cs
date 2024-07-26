@@ -35,20 +35,7 @@ namespace WebApplication1.Dal
 
         }
 
-        public void AddCompany(Company company)
-        {
-            try
-            {
-                company.Id = 0;
-                dbContext.Company.Add(company);
-                dbContext.SaveChanges();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                throw ex;
-            }
-        }
+        
         public void DeleteCompany(int Id)
         {
             try
@@ -101,5 +88,67 @@ namespace WebApplication1.Dal
                 //    var p = context.Albumy.FirstOrDefault(p=> p.Price <100m);
             }
         }
+        public void AddCompany(Company company)
+        {
+            try
+            {
+                company.Id = 0;
+                dbContext.Company.Add(company);
+                dbContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw ex;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+        public Company GetCompanyId(string name)
+        {
+
+            Company c;
+            try
+            {
+
+                c = dbContext.Company.Single(b => b.Name == name);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw ex;
+            }
+            return c;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

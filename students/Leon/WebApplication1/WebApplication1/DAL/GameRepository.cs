@@ -101,5 +101,35 @@ namespace WebApplication1.Dal
                 //    var p = context.Albumy.FirstOrDefault(p=> p.Price <100m);
             }
         }
+
+
+
+
+        public Game GetGameId(string name)
+        {
+
+            Game g;
+            try
+            {
+
+                g = dbContext.Game.Single(b => b.Name == name);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw ex;
+            }
+            return g;
+        }
+
+
+
+
+
+
+
+
+
     }
 }

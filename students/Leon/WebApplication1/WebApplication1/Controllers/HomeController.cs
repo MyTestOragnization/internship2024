@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Elfie.Serialization;
+using Microsoft.CodeAnalysis.Operations;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using WebApplication1.Dal;
@@ -106,6 +108,80 @@ namespace WebApplication1.Controllers
             return RedirectToAction("Companies");
 
         }
+
+
+
+
+
+
+
+
+
+
+
+        /*public IActionResult GetId(string NameGame, string NameCompany)
+        {
+            Game g = GameRepository.GetGameId(NameGame);
+            Company c = CompanyRepository.GetCompanyId(NameCompany);
+            if (g == null || c == null)
+            {
+                return View("Index");
+            }
+            else
+            {
+
+                return View("AskRelation", new { IdGame = g.Id, IdCompany = c.Id });
+                //return RedirectToAction("AddId", new { IdGame = g.Id, IdCompany = c.Id });
+            }
+        }*/
+
+        public IActionResult AddRel()
+        {
+
+        return View(); 
+        }
+
+        public IActionResult GetId(string NameGame, string NameCompany)
+        {
+            Game g = GameRepository.GetGameId(NameGame);
+            Company c = CompanyRepository.GetCompanyId(NameCompany);
+
+            if (g == null || c == null)
+            {
+                return View("Index");
+            }
+            else
+            {
+                RelId relId = new RelId { IdGame = g.Id, IdCompany = c.Id };
+                return RedirectToAction("AskRel", new RelId { IdGame = g.Id, IdCompany = c.Id });
+            }
+        }
+        public IActionResult AskRel(RelId model)
+        {
+            return View(model);
+        }
+
+
+
+        public IActionResult AddRelGTD(int IdCompany, int IdGame)
+        {
+            RelGTD gtd = new RelGTD(IdGame = IdGame, IdCompany = IdCompany);
+
+            RelRepository.AddRelGTD(gtd);
+            return RedirectToAction("Index");
+        }
+        public IActionResult AddRelGTP(int IdCompany, int IdGame)
+        {
+            RelGTP gtp = new RelGTP(IdGame = IdGame, IdCompany = IdCompany);
+
+            RelRepository.AddRelGTP(gtp);
+            return RedirectToAction("Index");
+        }
+
+
+
+
+
 
 
 

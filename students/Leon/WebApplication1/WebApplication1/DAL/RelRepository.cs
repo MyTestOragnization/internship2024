@@ -18,6 +18,46 @@ namespace WebApplication1.Dal
 
 
 
+        public void AddRelGTD(RelGTD gtd)
+                {
+                    try
+                    {
+                        gtd.Id = 0;
+                        dbContext.GameToDeveloper.Add(gtd);
+                        dbContext.SaveChanges();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        throw ex;
+                    }
+                }
+        public void AddRelGTP(RelGTP gtp)
+        {
+            try
+            {
+                gtp.Id = 0;
+                dbContext.GameToPublisher.Add(gtp);
+                dbContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                throw ex;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

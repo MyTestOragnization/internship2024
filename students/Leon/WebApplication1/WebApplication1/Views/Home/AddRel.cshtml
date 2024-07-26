@@ -1,25 +1,14 @@
-﻿@model WebApplication1.Models.Game
+﻿@model WebApplication1.Models.Rel
 
 
 <div class="text-center">
-    <h1 class="display-4">Games</h1>
+    <h1 class="display-4">Add relation</h1>
 </div>
-<form asp-action="AddingGame">
-    <label>Id</label>
-    <input class="form-control" type="number" placeholder="0" asp-for="Id" />
-
-    <label>Name</label>
-    <input class="form-control" type="text" placeholder="Name" asp-for="Name" required />
-
-    <label>Genre</label>
-    <input class="form-control" type="text" placeholder="Genre" asp-for="Genre" required />
-
-    <label>Release</label>
-    <input class="form-control" type="date" placeholder="yyyy-mm-dd" asp-for="Release" required />
-
-    <label>Price$</label>
-    <input class="form-control" type="number" placeholder="price" asp-for="Price" required />
-
+<form asp-action="GetId">
+    <label>Game Name</label>
+    <input class="form-control" type="text" placeholder="Name" asp-for="NameGame" required />
+    <label>Company Name</label>
+    <input class="form-control" type="text" placeholder="Name" asp-for="NameCompany" required />
     <button class="btn btn-primary" type="submit">Add</button>
 </form>
 
