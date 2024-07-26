@@ -6,7 +6,7 @@ header
 {
 
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     min-width: 0;
     min-height: 0;
 }
@@ -28,7 +28,7 @@ header
     display: flex;
     align-items: center;
     width: 100%;
-    grid-column: 5;
+    grid-column: 6;
     background: none;
     border: none;
     color: #FFF;
@@ -43,7 +43,7 @@ header
 }
 .coloredbutton
 {
-    
+    font-size: large;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -53,4 +53,11 @@ header
     width: 100%;
     background-color: #8050ff;
     border-radius: 8px;
+}
+
+@media screen and (width < 700px) {
+    
+    .coloredbutton {
+        font-size: small;
+    }   
 }

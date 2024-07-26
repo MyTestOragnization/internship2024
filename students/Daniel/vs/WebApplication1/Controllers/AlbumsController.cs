@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol.Core.Types;
 using WebApplication1.Data;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class AlbumsController : Controller
     {
         public AlbumsController(DbContextClass dbContext, IAlbumRepository albumRepository) 
@@ -17,54 +20,35 @@ namespace WebApplication1.Controllers
         public DbContextClass DbContext { get; }
         public IAlbumRepository AlbumRepository { get; }
 
-        [HttpGet]
-        public IActionResult AlbumList()
+        [HttpGet("GetAlbums")]
+        public IEnumerable<Album> GetAllAlbums()
         {
-           var albums = AlbumRepository.GetAlbums();
-
-            return View(albums);
+           return AlbumRepository.GetAlbums();
         }
 
-        [HttpGet]
-        public IActionResult Edit(int id)
+        [HttpGet("GetAlbums/{id}")]
+        public Album GetOneAlbum(int id)
         {
-            var album = AlbumRepository.GetOneAlbum(id);
-            return View(album);
+            return AlbumRepository.GetOneAlbum(id);
         }
 
-        [HttpPost]
-        public IActionResult SaveEdited(Albums album) 
+        [HttpPut("EditArtist/{id}")]
+        public bool EditArtist(int id, Album albums)
         {
-            var result = AlbumRepository.SaveEdited(album);
-            if (result == true) 
-            {
-                return RedirectToAction("AlbumList");
-            }
-            else { return View(); }
+            return AlbumRepository.EditAlbum(id, albums);
         }
-        [HttpGet]
-        public IActionResult AddView()
+
+        [HttpPost("AddNewAlbum")]
+        public bool AddNewAlbum(Album albums) 
         {
-            return View();
+           return AlbumRepository.AddNewAlbum(albums);
         }
-        [HttpPost]
-        public IActionResult AddNewAlbum(Albums album)
+
+        [HttpDelete("DeleteAlbum/{id}")]
+        public bool DeleteAlbum(int id) 
         {
-            var result = AlbumRepository.AddNewAlbum(album);
-            if (result == true) 
-            {
-                return RedirectToAction("AlbumList");
-            }
-            else { return View(); }
+            return AlbumRepository.DeleteAlbum(id);
         }
-        public IActionResult Delete(int id) 
-        {
-            var result = AlbumRepository.DeleteAlbum(id);
-            if (result == true) 
-            {
-                return RedirectToAction("AlbumList");
-            }
-            else { return View(); }
-        }
+       
     }
 }

@@ -13,30 +13,39 @@ namespace WebApplication1.Data
             DbContext = dbContext;
         }
         public AlbumRepository() { }
-        public DbContextClass DbContext;
 
-        public IEnumerable<Albums> GetAlbums()
+        private bool disposedValue;
+        public DbContextClass DbContext { get; }
+
+        public IEnumerable<Album> GetAlbums()
         {
-            IEnumerable<Albums> albums = DbContext.Albums.ToList();
+            IEnumerable<Album> albums = DbContext.Albums.ToList();
             return albums;
         }
 
-        public Albums GetOneAlbum(int id)
+        public Album GetOneAlbum(int id)
         {
             var album = DbContext.Albums.Find(id);
             return album;
         }
 
-        public bool SaveEdited(Albums album)
+        public bool EditAlbum (int id, Album albums)
         {
-            var result = DbContext.Update(album); 
-            DbContext.SaveChanges();
-            return result != null;
+            if (albums.AlbumID != id)
+            {
+                return false;
+            }
+            if (DbContext.Albums.Update(albums)!= null)
+            {
+                DbContext.SaveChanges();
+                return true;
+            }
+            return false;
         }
 
-        public bool AddNewAlbum(Albums album)
+        public bool AddNewAlbum(Album album)
         {
-            var result = DbContext.Add(album);
+            var result = DbContext.Albums.Add(album);
             DbContext.SaveChanges();
             return result != null;
         }
@@ -44,10 +53,17 @@ namespace WebApplication1.Data
         public bool DeleteAlbum(int id)
         {
             var album = GetOneAlbum(id);
-            var result = DbContext.Remove(album);
-            DbContext.SaveChanges();
-            return result != null;
+            if (album != null)
+            {
+                if (DbContext.Albums.Remove(album) != null)
+                {
+                    DbContext.SaveChanges();
+                    return true;
+                }
+            }
+            return false;
         }
+
         
     }
 }

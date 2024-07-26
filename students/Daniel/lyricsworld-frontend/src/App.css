@@ -1,5 +1,15 @@
 :root{
   --main-color: #8050ff;
+  --text-size-xs: 0.69rem;
+  --text-size-sm: 0.83rem;
+  --text-size-md: 1rem;
+  --text-size-lg: 1.2rem;
+  --text-size-xl: 1.44rem;
+  --text-size-2xl: 1.73rem;
+  --text-size-3xl: 2.07rem;
+  --text-size-4xl: 2.49rem;
+  --text-size-5xl: 2.99rem;
+  --text-size-8xl: calc(var(--text-size-5xl)*2)
 }
 .App{
   font-size: calc(1rem + 2vw);
@@ -36,14 +46,15 @@ main
 }
 main > h1
 {
-  letter-spacing: -0.04em;
+  font-size: var(--text-size-8xl);
+  letter-spacing:-0.04em;
   text-fill-color: transparent;
   background: linear-gradient(90.99deg, var(--main-color) 2.16%, #5088CA 99.65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
 }
-main > h2 {letter-spacing: -0.04em;}
+main > h2 {letter-spacing: -0.04em; font-size: calc(var(--text-size-3xl)*2);}
 main > a
 {
   display: flex;
@@ -56,3 +67,9 @@ main > a
   border-radius: 7px;
   align-self: center;
 }
+@media screen and (width < 700px){
+  main > h1 {
+    font-size: calc(var(--text-size-4xl)*2);
+  }
+}
+
