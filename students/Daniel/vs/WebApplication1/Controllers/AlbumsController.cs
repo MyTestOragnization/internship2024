@@ -21,25 +21,25 @@ namespace WebApplication1.Controllers
         public IAlbumRepository AlbumRepository { get; }
 
         [HttpGet("GetAlbums")]
-        public IEnumerable<Album> GetAllAlbums()
+        public IEnumerable<Albums> GetAllAlbums()
         {
            return AlbumRepository.GetAlbums();
         }
 
         [HttpGet("GetAlbums/{id}")]
-        public Album GetOneAlbum(int id)
+        public Albums GetOneAlbum(int id)
         {
             return AlbumRepository.GetOneAlbum(id);
         }
 
         [HttpPut("EditArtist/{id}")]
-        public bool EditArtist(int id, Album albums)
+        public bool EditArtist(int id, Albums albums)
         {
             return AlbumRepository.EditAlbum(id, albums);
         }
 
         [HttpPost("AddNewAlbum")]
-        public bool AddNewAlbum(Album albums) 
+        public bool AddNewAlbum(Albums albums) 
         {
            return AlbumRepository.AddNewAlbum(albums);
         }

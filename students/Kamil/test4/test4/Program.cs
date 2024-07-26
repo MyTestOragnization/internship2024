@@ -17,8 +17,18 @@ namespace WebApplication1
 
             builder.Services.AddScoped<IAlbumEFRepository, AlbumEFRepository>();
             builder.Services.AddScoped<ISaleEFRepository, SaleEFRepository>();
+            builder.Services.AddCors(options =>
+            {
+                var frontend_url = "http://localhost:5173";
 
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins(frontend_url).AllowAnyMethod().AllowAnyHeader();
+                });
+            });
             var app = builder.Build();
+
+
 
 
 
@@ -31,6 +41,7 @@ namespace WebApplication1
                 app.UseHsts();
             }
 
+            app.UseCors();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

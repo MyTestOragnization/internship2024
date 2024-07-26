@@ -13,23 +13,21 @@ namespace WebApplication1.Data
             DbContext = dbContext;
         }
         public AlbumRepository() { }
+        public DbContextClass DbContext;
 
-        private bool disposedValue;
-        public DbContextClass DbContext { get; }
-
-        public IEnumerable<Album> GetAlbums()
+        public IEnumerable<Albums> GetAlbums()
         {
-            IEnumerable<Album> albums = DbContext.Albums.ToList();
+            IEnumerable<Albums> albums = DbContext.Albums.ToList();
             return albums;
         }
 
-        public Album GetOneAlbum(int id)
+        public Albums GetOneAlbum(int id)
         {
             var album = DbContext.Albums.Find(id);
             return album;
         }
 
-        public bool EditAlbum (int id, Album albums)
+        public bool EditAlbum (int id, Albums albums)
         {
             if (albums.AlbumID != id)
             {
@@ -43,9 +41,9 @@ namespace WebApplication1.Data
             return false;
         }
 
-        public bool AddNewAlbum(Album album)
+        public bool AddNewAlbum(Albums album)
         {
-            var result = DbContext.Albums.Add(album);
+            var result = DbContext.Add(album);
             DbContext.SaveChanges();
             return result != null;
         }
@@ -55,7 +53,7 @@ namespace WebApplication1.Data
             var album = GetOneAlbum(id);
             if (album != null)
             {
-                if (DbContext.Albums.Remove(album) != null)
+                if (DbContext.Remove(album) != null)
                 {
                     DbContext.SaveChanges();
                     return true;
@@ -63,7 +61,6 @@ namespace WebApplication1.Data
             }
             return false;
         }
-
         
     }
 }

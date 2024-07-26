@@ -1,7 +1,7 @@
 ﻿using test4.Models;
-using test4.Dal;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
+//using test4.Dal;
+//using Microsoft.EntityFrameworkCore;
+//using Microsoft.EntityFrameworkCore.SqlServer;
 namespace test4.Dal
 {                                                
     public class AlbumEFRepository : IAlbumEFRepository
