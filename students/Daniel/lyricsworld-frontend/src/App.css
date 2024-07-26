@@ -11,6 +11,7 @@
   --text-size-5xl: 2.99rem;
   --text-size-8xl: calc(var(--text-size-5xl)*2)
 }
+
 .App{
   font-size: calc(1rem + 2vw);
   min-height: 100vh;
@@ -70,6 +71,9 @@ main > a
 @media screen and (width < 700px){
   main > h1 {
     font-size: calc(var(--text-size-4xl)*2);
+  }
+  main >h2 {
+    font-size: var(--text-size-4xl);
   }
 }
 

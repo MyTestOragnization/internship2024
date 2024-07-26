@@ -8,7 +8,7 @@ namespace WebApplication1.Data
     public interface IUserRepository
     {
         User GetOneUser(string id);
-        bool Register(User user);
+        bool Register(RegisterDTO user);
         bool Login(LoginDTO loginDTO);
     }
 }

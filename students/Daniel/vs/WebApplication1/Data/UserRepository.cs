@@ -35,7 +35,7 @@ namespace WebApplication1.Data
             return user != null && password;
         }
 
-        public bool Register(User user)
+        public bool Register(RegisterDTO user)
         {
             var searchUsers = GetOneUser(user.username);
 

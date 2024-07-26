@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
+using Azure.Core;
 using WebApplication1.Data;
 using WebApplication1.Models;
 using WebApplication1.Models.DTOs;
@@ -25,20 +26,24 @@ namespace WebApplication1.Controllers
         public DbContextClass DbContext { get; }
         public IUserRepository UserRepository { get; }
 
-        [HttpGet("GetUser/{id}")]
-        public User GetOneUser(string username) 
-        {
-            return UserRepository.GetOneUser(username);
-        }
+        //[HttpGet("GetUser/{id}")]
+        //public User GetOneUser(string username) 
+        //{
+        //    return UserRepository.GetOneUser(username);
+        //}
 
         [HttpPost("RegisterUser")]
-        public IActionResult Register([FromBody] User user)  
+        public IActionResult Register(RegisterDTO user)  
         {
             if (UserRepository.Register(user))
             {
-                return Ok("User registered succesfully");
+                return Ok(new 
+                {
+                    message="User registered succesfully",
+                    username=user.username
+                });
             }
-            return BadRequest();
+            return BadRequest(new {message = "Cannot register user", status=400});
         }
 
         [HttpPost("Login")]
@@ -50,8 +55,9 @@ namespace WebApplication1.Controllers
                 var jwt = jwtConfig.GenerateKey(loginDTO.username);
                 string success = "Login success";
                 return Ok(new { jwt, success});
-            }
-            return BadRequest();
+            } 
+            return BadRequest(new {message="Username and/or password is wrong", status=HttpStatusCode.NotModified});
         }
+        
     }
 }
