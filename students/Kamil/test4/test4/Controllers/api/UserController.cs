@@ -13,6 +13,7 @@ namespace test4.Controllers.api
         public MyDbContext DbContext { get; set; }
         public IAlbumEFRepository AlbumEFRepository { get; set; }
         public ISaleEFRepository SaleEFRepository { get; set; }
+        private UsersRepository usersRepository = new UsersRepository();
         private readonly ILogger<HomeController> _logger;
 
         public UserController(ILogger<HomeController> logger, MyDbContext dbContext, IAlbumEFRepository albumRepository, ISaleEFRepository saleEFRepository)
@@ -24,13 +25,13 @@ namespace test4.Controllers.api
         }
        //  GET: api/<UserController>
         [HttpGet]
-        public string Get()
+        public List<Users> Get()
         {
-          //  List<Users> list;//usersRepository.GetUsers();
-            return "list";
+            List<Users> list = usersRepository.GetUsers();
+            return list;
 
         }
-      //  GET api/<UserController>/5
+        //  GET api/<UserController>/5
         [HttpGet("{id}")]
         public IEnumerable<Album> Get(int id)
         {
