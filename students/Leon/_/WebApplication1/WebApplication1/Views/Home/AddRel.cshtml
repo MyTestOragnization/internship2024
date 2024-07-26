@@ -1,0 +1,14 @@
+﻿@model WebApplication1.Models.Rel
+
+
+<div class="text-center">
+    <h1 class="display-4">Add relation</h1>
+</div>
+<form asp-action="AddRel">
+    <label>Game Name</label>
+    <input class="form-control" type="text" placeholder="Name" asp-for="NameGame" required />
+    <label>Company Name</label>
+    <input class="form-control" type="text" placeholder="Name" asp-for="NameCompany" required />
+    <button class="btn btn-primary" type="submit">Add</button>
+</form>
+
