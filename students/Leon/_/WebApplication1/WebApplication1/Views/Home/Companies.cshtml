@@ -1,0 +1,58 @@
+﻿@model List<WebApplication1.Models.Company>
+
+
+<div class="text-center">
+    <h1 class="display-4">Companies</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Country
+                </th>
+                <th>
+                    Ceo
+                </th>
+                <th>
+                    Estabilished
+                </th>
+                <th>
+                    Actions
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>
+                        @c.Id
+                    </td>
+                    <td>
+                        @c.Name
+                    </td>
+                    <td>
+                        @c.Country
+                    </td>
+                    <td>
+                        @c.CEO
+                    </td>
+                    <td>
+                        @c.Estabilished
+                    </td>
+                    <td>
+                        <a asp-action="DeleteCompany" asp-route-id="@c.Id">Delete</a>
+                        <a asp-action="EditCompany" asp-route-id="@c.Id">Edit</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a type="button" class="btn btn-primary" asp-action="AddCompany">Add Company</a>
