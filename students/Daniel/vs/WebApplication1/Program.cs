@@ -1,5 +1,8 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using WebApplication1.Data;
 
 namespace WebApplication1
@@ -15,9 +18,30 @@ namespace WebApplication1
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+            {
+               options.TokenValidationParameters = new TokenValidationParameters
+               {
+                   ValidateIssuer = true,
+                   ValidateAudience = true,
+                   ValidateLifetime = true,
+                   ValidAudience = "http://localhost:3005",
+                   ValidIssuer = "http://localhost:3005",
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("5d3e6727f7e5787d47479d58e3307c8b"))
+               } ;
+            });
+
+            builder.Services.AddScoped<JwtConfig>();
+
             builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
             builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
+<<<<<<< HEAD
+            builder.Services.AddScoped<ISongRepository, SongRepository>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            
+=======
+>>>>>>> 3bdd92718a119df286ba0a38c68560aed95af3c5
 
             var provider = builder.Services.BuildServiceProvider();
             var configuration = provider.GetService<IConfiguration>();
@@ -42,7 +66,7 @@ namespace WebApplication1
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseAuthentication();
             app.UseRouting();
             app.UseCors();
             app.UseAuthorization();
