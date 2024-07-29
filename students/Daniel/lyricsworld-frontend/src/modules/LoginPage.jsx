@@ -3,12 +3,12 @@ import { useSelector,useDispatch } from 'react-redux';
 import { useEffect } from "react";
 import { render } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
-    
-
+import { Login } from "../store/state/LoginSlice";
+import { changeLogged } from "../store/state/ProfileSlice";
 
 function RegisterForm() {
     const dispatch = useDispatch()
-    const user = useSelector((state) => state.User)
+    const user = useSelector((state) => state.Login)
     const profile = useSelector((state)=> state.Profile)
     const navigate = useNavigate()
 
@@ -24,8 +24,11 @@ function RegisterForm() {
     }
     const handleSubmit = (e) => 
     {
-        console.log(details)
-        navigate('/profile')
+        dispatch(Login(details))
+        console.log(user)
+        dispatch(changeLogged())
+        console.log(profile)
+        navigate("/albums")
     }
 
 return(

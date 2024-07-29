@@ -1,149 +1,69 @@
 ﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System.Data;
 using WebApplication1.Models;
 
 namespace WebApplication1.Data
 {
-    public class SongRepository 
+    public class SongRepository : ISongRepository
     {
         
-        private SqlConnection sqlConnection;
-        static string connectionString = "Server=L-01452019\\SQL2022;Database=LyricsWorld1;Trusted_Connection=True;TrustServerCertificate=True;";
 
-        public List<Piosenka> GetAllSongs()
+        public SongRepository(DbContextClass dbContext)
         {
-            using (sqlConnection = new SqlConnection(connectionString))
-            {
-                List<Piosenka> piosenka = new List<Piosenka>();
-                SqlCommand cmd = new SqlCommand("GetAllSongs", sqlConnection);
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
-
-                using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
-                {
-                    DataTable dataTable = new DataTable();
-                    adapter.Fill(dataTable);
-
-                    foreach (DataRow row in dataTable.Rows)
-                    {
-                        piosenka.Add(new Piosenka
-                        {
-                            SongID = Convert.ToInt32(row["SongID"]),
-                            SongTitle = row["SongTitle"].ToString(),
-                            SongDuration = Convert.ToInt32(row["SongDuration"]),
-                            SongLyrics = row["SongLyrics"].ToString(),
-                            SongGenre = row["SongGenre"].ToString()
-                        });
-                    }
-                }
-                return piosenka;
-            }
+            DbContext = dbContext;
+        }
+        public DbContextClass DbContext { get; }
+        public IEnumerable<Song> GetAllSongs()
+        {
+            IEnumerable<Song> songs = DbContext.Songs.ToList();
+            return songs;
         }
 
-        public bool EditSong(int Id, Piosenka song)
+        public bool EditSong(int Id, Song song)
         {
-            using (sqlConnection = new SqlConnection(connectionString))
+            if (song.SongID!= Id)
             {
-                SqlCommand sqlCommand = new SqlCommand("UpdateSongs", sqlConnection);
-                sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
-                sqlCommand.Parameters.AddWithValue("@SongID", Id);
-                sqlCommand.Parameters.AddWithValue("@SongTitle", song.SongTitle);
-                sqlCommand.Parameters.AddWithValue("@SongDuration", song.SongDuration);
-                sqlCommand.Parameters.AddWithValue("@SongLyrics", song.SongLyrics);
-                sqlCommand.Parameters.AddWithValue("@SongGenre", song.SongGenre);
+                return false;
+            }
+            if (DbContext.Songs.Update(song) != null)
+            {
+                DbContext.SaveChanges();
+                return true;
+            }
+            return false;
+        }
 
-                sqlConnection.Open();
-                try
+        public Song GetSongById(int id)
+        {
+            return DbContext.Songs.Find(id);
+        }
+
+        public bool DeleteSong(int id)
+        {
+            
+            var song = GetSongById(id);
+            if (song == null) return false;
+            if (DbContext.Remove(song) != null)
+            {
+                DbContext.SaveChanges();
+                return true;
+            }
+            return false;
+        }
+
+        public bool AddNewSong(Song piosenka)
+        {
+            if (piosenka.SongID == 0)
+            {
+                var result = DbContext.Add(piosenka);
+                if (result != null)
                 {
-                    sqlCommand.ExecuteNonQuery();
-                    sqlConnection.Close();
+                    DbContext.SaveChanges();
                     return true;
                 }
-                catch (Exception ex)
-                {
-                    ex.ToString();
-                    sqlConnection.Close();
-                    return false;
-                }
             }
+            return false;
         }
-
-        public Piosenka GetSongById(int SongID)
-        {
-            using (sqlConnection = new SqlConnection(connectionString))
-            {
-                List<Piosenka> piosenka = new List<Piosenka>();
-                SqlCommand cmd = new SqlCommand("GetSongById", sqlConnection);
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("Id", SongID);
-                sqlConnection.Open();
-
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                {
-
-                    while (reader.Read())
-                    {
-                        piosenka.Add(new Piosenka()
-                        {
-                            SongID = Convert.ToInt32(reader["SongID"]),
-                            SongTitle = reader["SongTitle"].ToString(),
-                            SongDuration = Convert.ToInt32(reader["SongDuration"]),
-                            SongLyrics = reader["SongLyrics"].ToString(),
-                            SongGenre = reader["SongGenre"].ToString()
-                        });
-
-
-                    }
-
-                }
-
-                sqlConnection.Close();
-                return piosenka[0];
-            }
-        }
-
-        public bool DeleteSong(int SongID)
-        {
-            using (sqlConnection = new SqlConnection(connectionString))
-            {
-                SqlCommand sqlCommand = new SqlCommand("DELETE FROM Songs WHERE SongID=" + SongID);
-
-                sqlConnection.Open();
-
-                try
-                {
-                    sqlCommand.ExecuteNonQuery();
-                    sqlConnection.Close();
-                    return true;
-                }
-                catch
-                {
-                    sqlConnection.Close();
-                    return false;
-                }
-            }
-        }
-
-        public bool AddNewSong(Piosenka piosenka)
-        {
-            using (sqlConnection = new SqlConnection(connectionString))
-            {
-                SqlCommand sqlCommand = new SqlCommand("INSERT INTO Songs ([SongTitle],[SongDuration],[SongLyrics],[SongGenre]) " +
-                "VALUES ('" + piosenka.SongTitle + "'," + piosenka.SongDuration + ",'" +
-                piosenka.SongLyrics + "','" + piosenka.SongGenre + "')", sqlConnection);
-
-                sqlConnection.Open();
-
-                try
-                {
-                    sqlCommand.ExecuteNonQuery();
-                    sqlConnection.Close();
-                    return true;
-                }
-                catch { sqlConnection.Close(); return false; }
-            }
-        }
-
-        
-
     }
 }

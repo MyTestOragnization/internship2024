@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using WebApplication1.Data;
+using WebApplication1.TokenFolder;
 
 namespace WebApplication1
 {
@@ -36,13 +37,9 @@ namespace WebApplication1
             builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
             builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
-<<<<<<< HEAD
             builder.Services.AddScoped<ISongRepository, SongRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             
-=======
->>>>>>> 3bdd92718a119df286ba0a38c68560aed95af3c5
-
             var provider = builder.Services.BuildServiceProvider();
             var configuration = provider.GetService<IConfiguration>();
             builder.Services.AddCors(options =>

@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.Design;
 
 namespace WebApplication1.Models
 {
+    [Table("Albums")]
     public class Albums
     {
         [Key]

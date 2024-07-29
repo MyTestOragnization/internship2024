@@ -1,6 +1,12 @@
-﻿namespace WebApplication1.Data
+﻿using WebApplication1.Models;
+using WebApplication1.Models.DTOs;
+
+namespace WebApplication1.Data
 {
-    public interface IUserInterface
+    public interface IUserRepository
     {
+        public User GetOneUser(string id);
+        public bool Login(LoginDTO loginDTO);
+        public bool Register(RegisterDTO user);
     }
 }

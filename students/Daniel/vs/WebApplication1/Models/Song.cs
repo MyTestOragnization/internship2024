@@ -1,8 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebApplication1.Models
 {
-    public class Piosenka
+    [Table("Songs")]
+    public class Song
     {
         [Key]
         public int SongID { get; set; }
@@ -14,15 +16,7 @@ namespace WebApplication1.Models
         public string SongLyrics { get; set; }
         public string SongGenre { get; set; }
 
-        public Piosenka(int ID,string Title,int Duration,string Lyrics,string Genre)
-        {
-            SongID = ID;
-            SongTitle = Title;
-            SongDuration = Duration;
-            SongLyrics = Lyrics;
-            SongGenre = Genre;
-        }
-        public Piosenka() { }
+    
     }
     
 }
