@@ -1,0 +1,9 @@
+﻿@model WebApplication1.Models.RelId
+<div class="text-center">
+    <h1 class="display-4">Which relation</h1>
+</div>
+
+
+<a asp-action="AddRelGTP" asp-route-IdCompany="@Model.IdCompany" asp-route-IdGame="@Model.IdGame">Game to publisher</a>
+<a asp-action="AddRelGTD" asp-route-IdCompany="@Model.IdCompany" asp-route-IdGame="@Model.IdGame">Game to developer</a>
+

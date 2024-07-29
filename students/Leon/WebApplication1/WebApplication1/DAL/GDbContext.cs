@@ -9,7 +9,6 @@ namespace WebApplication1.Dal
         public DbSet<RelGTD> GameToDeveloper { get; set; }
         public DbSet<RelGTP> GameToPublisher { get; set; }
 
-
         public GDbContext(DbContextOptions<GDbContext> options) : base(options)
         {
         }

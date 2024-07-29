@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test2\\webapplication1\\webapplication1\\views\\home\\askrel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\askrel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test2\\webapplication1\\webapplication1\\dal\\gdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dal\\gdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test2\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test2\\webapplication1\\webapplication1\\views\\home\\askrel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\askrel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test2\\webapplication1\\webapplication1\\views\\home\\addrel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -87,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test2\\webapplication1\\webapplication1\\dal\\gdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dal\\gdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|c:\\users\\mazur\\onedrive\\pulpit\\inter2024\\test2\\webapplication1\\webapplication1\\dal\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4309E4AC-1876-4AF3-9563-381E8237B88A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dal\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -126,11 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddRel.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\AddRel.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\AddRel.cshtml",
@@ -139,8 +139,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-26T07:31:38.543Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -150,7 +149,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAMwKcAAABKAAAA",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAiwLIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T10:45:30.868Z",
               "IsPinned": true,
@@ -158,13 +157,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AskRel.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\AskRel.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\AskRel.cshtml",
               "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\AskRel.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\AskRel.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-26T09:26:25.757Z",
               "IsPinned": true,
@@ -172,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Rel.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Models\\Rel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Rel.cs",
@@ -181,12 +180,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T09:34:14.007Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "RelGTP.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Models\\RelGTP.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\RelGTP.cs",
@@ -195,12 +193,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T09:17:31.086Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RelGTD.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Models\\RelGTD.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\RelGTD.cs",
@@ -209,12 +206,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T09:15:36.08Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RelRepository.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\RelRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DAL\\RelRepository.cs",
@@ -223,12 +219,11 @@
               "ViewState": "AQIAAAsAAAAAAAAAAAAjwB8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T07:11:23.528Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IRelRepository.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\IRelRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DAL\\IRelRepository.cs",
@@ -241,20 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Companies.cshtml",
-              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\Companies.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Companies.cshtml",
-              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\Companies.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\Companies.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADEAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T10:21:08.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AddGame.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\AddGame.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\AddGame.cshtml",
@@ -262,12 +244,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\AddGame.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T08:54:42.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T08:54:42.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
@@ -275,12 +256,36 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAlwCUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T07:32:11.433Z",
+              "WhenOpened": "2024-07-25T07:32:11.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\GDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DAL\\GDbContext.cs",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\GDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\DAL\\GDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:24:03.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Companies.cshtml",
+              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\Companies.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Companies.cshtml",
+              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\Companies.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Companies.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T10:21:08.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EditCompany.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\EditCompany.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\EditCompany.cshtml",
@@ -288,12 +293,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\EditCompany.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T10:17:59.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T10:17:59.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EditGame.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\EditGame.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\EditGame.cshtml",
@@ -301,12 +305,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\EditGame.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T09:31:41.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T09:31:41.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Games.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\Games.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Games.cshtml",
@@ -314,12 +317,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Games.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAADcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T12:09:42.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T12:09:42.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AddCompany.cshtml",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Views\\Home\\AddCompany.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\AddCompany.cshtml",
@@ -327,12 +329,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\AddCompany.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T10:18:45.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T10:18:45.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
@@ -340,12 +341,11 @@
               "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T09:26:21.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T09:26:21.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Models\\Game.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Game.cs",
@@ -353,12 +353,11 @@
               "RelativeToolTip": "WebApplication1\\Models\\Game.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T09:27:00.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T09:27:00.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ICompanyRepository.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\ICompanyRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DAL\\ICompanyRepository.cs",
@@ -370,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CompanyRepository.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\CompanyRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DAL\\CompanyRepository.cs",
@@ -382,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "RelId.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Models\\RelId.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\RelId.cs",
@@ -394,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\Models\\Company.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Company.cs",
@@ -403,18 +402,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T09:26:25.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\GDbContext.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\DAL\\GDbContext.cs",
-              "ToolTip": "C:\\Users\\mazur\\OneDrive\\Pulpit\\inter2024\\Test2\\WebApplication1\\WebApplication1\\DAL\\GDbContext.cs",
-              "RelativeToolTip": "WebApplication1\\DAL\\GDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T09:24:03.492Z"
             },
             {
               "$type": "Document",
