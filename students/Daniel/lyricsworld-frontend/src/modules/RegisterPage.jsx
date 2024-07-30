@@ -4,8 +4,8 @@ import { Register } from "../store/state/RegisterSlice";
 import { useEffect } from "react";
 import { render } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
-    
-
+import {Link} from 'react-router-dom'
+import RegisterPagecss from '../cssformodules/RegisterPage.css'
 
 function RegisterForm() {
     const dispatch = useDispatch()
@@ -31,15 +31,27 @@ function RegisterForm() {
 
 return(
 
-    <>
+    <div id="RegisterContainer">
+        <h1>Register</h1>
         <form>
+            <div id="usernameinput">
+            <label htmlFor="username">Username</label>
             <input type="text" name="username" onChange={handleChange}/>
+            </div>
+            <div id="passwordinput">
+            <label htmlFor="password">Password</label>
             <input type="text" name="password" onChange={handleChange}/>
+            </div>
+            <div id="emailinput">
+            <label htmlFor="email">E-mail</label>
             <input type="text" name="email" onChange={handleChange}/>
+            </div>
             <input type="button" value="Register" onClick={handleSubmit}/>
         </form>
-    </>)
+        <h6>Alredy have an account? <Link id="linktologin" to="/login">Log in</Link></h6>
+     </div>)
 }
 
 export default RegisterForm
 
+ 

@@ -21,19 +21,12 @@ export const LoginSlice = createSlice({
     {
         username: '',
         error: '',
-        token: ''
-    },
-    reducers: {
-        getToken(state){
-            return state.token
-        }
     },
     extraReducers: (builder) => {
         builder
-        .addCase(Login.pending, () => {console.log("fetching data")})
-        .addCase(Login.fulfilled, (state, action) => {state.username =action.payload.username;state.token=action.payload.jwt; })
+        .addCase(Login.pending, () => {console.log("trying to log in")})
+        .addCase(Login.fulfilled, (state, action) => {state.username =action.payload.username;localStorage.setItem('token', action.payload.jwt)})
         .addCase(Login.rejected, (state,action)=> {state.error=action.error.message})
     }
 })
-export const {getToken} = LoginSlice.actions
 export default LoginSlice.reducer

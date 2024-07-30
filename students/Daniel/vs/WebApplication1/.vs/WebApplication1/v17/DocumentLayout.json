@@ -3,52 +3,88 @@
   "WorkspaceRootPath": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\connectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\connectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\dbcontextclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\connectdbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\connectdbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\iconnectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\iconnectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\dtos\\artistalbumsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\dtos\\artistalbumsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\connectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\songrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\artistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\songcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\isongrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,14 +119,6 @@
       "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\models\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:models\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|c:\\daniel harmasz\\newrepo\\internship2024\\students\\daniel\\vs\\webapplication1\\data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{714AE70E-73A7-4C5E-993B-47C35B621E1F}|WebApplication1.csproj|solutionrelative:data\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -108,7 +132,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -116,212 +140,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SongController.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\SongController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SongController.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\SongController.cs",
-              "RelativeToolTip": "Controllers\\SongController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAdAAAA",
+              "DocumentIndex": 7,
+              "Title": "ArtistAlbumSong.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\ArtistAlbumSong.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ArtistAlbumSong.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\ArtistAlbumSong.cs",
+              "RelativeToolTip": "Models\\DTOs\\ArtistAlbumSong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T11:01:22.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Albums.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Albums.cs",
-              "RelativeDocumentMoniker": "Models\\Albums.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Albums.cs",
-              "RelativeToolTip": "Models\\Albums.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:59:22.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Artist.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Artist.cs",
-              "RelativeDocumentMoniker": "Models\\Artist.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Artist.cs",
-              "RelativeToolTip": "Models\\Artist.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAawAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:59:22.861Z",
+              "WhenOpened": "2024-07-30T10:50:38.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ArtistRepository.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ArtistRepository.cs",
-              "RelativeDocumentMoniker": "Data\\ArtistRepository.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ArtistRepository.cs",
-              "RelativeToolTip": "Data\\ArtistRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwDsAAAAeAAAA",
+              "DocumentIndex": 0,
+              "Title": "ConnectRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ConnectRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ConnectRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ConnectRepository.cs",
+              "RelativeToolTip": "Data\\ConnectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:57:04.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AlbumRepository.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
-              "RelativeDocumentMoniker": "Data\\AlbumRepository.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
-              "RelativeToolTip": "Data\\AlbumRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:53:56.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IAlbumRepository.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs",
-              "RelativeDocumentMoniker": "Data\\IAlbumRepository.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs",
-              "RelativeToolTip": "Data\\IAlbumRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:53:54.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Song.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Song.cs",
-              "RelativeDocumentMoniker": "Models\\Song.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Song.cs",
-              "RelativeToolTip": "Models\\Song.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:52:44.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ISongRepository.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ISongRepository.cs",
-              "RelativeDocumentMoniker": "Data\\ISongRepository.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ISongRepository.cs",
-              "RelativeToolTip": "Data\\ISongRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:47:35.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SongRepository.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
-              "RelativeDocumentMoniker": "Data\\SongRepository.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
-              "RelativeToolTip": "Data\\SongRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:47:17.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Data\\IUserRepository.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IUserRepository.cs",
-              "RelativeToolTip": "Data\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:45:12.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-29T10:33:45.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ArtistController.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ArtistController.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistController.cs",
-              "RelativeToolTip": "Controllers\\ArtistController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T11:07:23.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:44:14.349Z"
+              "WhenOpened": "2024-07-30T08:37:27.47Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DbContextClass.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\DbContextClass.cs",
-              "RelativeDocumentMoniker": "Data\\DbContextClass.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\DbContextClass.cs",
-              "RelativeToolTip": "Data\\DbContextClass.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAYwA4AAAAuAAAA",
+              "Title": "ConnectDBtable.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\ConnectDBtable.cs",
+              "RelativeDocumentMoniker": "Models\\ConnectDBtable.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\ConnectDBtable.cs",
+              "RelativeToolTip": "Models\\ConnectDBtable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:43:43.16Z"
+              "WhenOpened": "2024-07-30T08:17:42.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:36:11.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAArwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:35:21.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ArtistsController.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ArtistsController.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
-              "RelativeToolTip": "Controllers\\ArtistsController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:33:45.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "AlbumsController.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\AlbumsController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlbumsController.cs",
@@ -329,23 +187,298 @@
               "RelativeToolTip": "Controllers\\AlbumsController.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAQwCUAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:33:45.552Z"
+              "WhenOpened": "2024-07-29T10:33:45.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Albums.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Albums.cs",
+              "RelativeDocumentMoniker": "Models\\Albums.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Albums.cs",
+              "RelativeToolTip": "Models\\Albums.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:59:22.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbContextClass.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\DbContextClass.cs",
+              "RelativeDocumentMoniker": "Data\\DbContextClass.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\DbContextClass.cs",
+              "RelativeToolTip": "Data\\DbContextClass.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAYwA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:43:43.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwB8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:33:45.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArtistRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ArtistRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ArtistRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ArtistRepository.cs",
+              "RelativeToolTip": "Data\\ArtistRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwDsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:57:04.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IConnectRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IConnectRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IConnectRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IConnectRepository.cs*",
+              "RelativeToolTip": "Data\\IConnectRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:31:01.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "Models\\Song.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Song.cs",
+              "RelativeToolTip": "Models\\Song.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:52:44.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T08:18:42.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConnectionController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ConnectionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConnectionController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ConnectionController.cs",
+              "RelativeToolTip": "Controllers\\ConnectionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T08:39:37.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data\\AlbumRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\AlbumRepository.cs",
+              "RelativeToolTip": "Data\\AlbumRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwB8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:53:56.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SongRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
+              "RelativeDocumentMoniker": "Data\\SongRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\SongRepository.cs",
+              "RelativeToolTip": "Data\\SongRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:47:17.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-29T10:33:45.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IUserRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IUserRepository.cs",
+              "RelativeToolTip": "Data\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:45:12.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ISongRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ISongRepository.cs",
+              "RelativeDocumentMoniker": "Data\\ISongRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\ISongRepository.cs",
+              "RelativeToolTip": "Data\\ISongRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:47:35.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ArtistController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArtistController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistController.cs",
+              "RelativeToolTip": "Controllers\\ArtistController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:07:23.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Models\\Artist.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\Artist.cs",
+              "RelativeToolTip": "Models\\Artist.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAawBEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:59:22.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ArtistsController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArtistsController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\ArtistsController.cs",
+              "RelativeToolTip": "Controllers\\ArtistsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:33:45.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IAlbumRepository.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IAlbumRepository.cs",
+              "RelativeToolTip": "Data\\IAlbumRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:53:54.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "SongController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\SongController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SongController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\SongController.cs",
+              "RelativeToolTip": "Controllers\\SongController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:01:22.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:44:14.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:36:11.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAArwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:35:21.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "JwtConfig.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\TokenFolder\\JwtConfig.cs",
               "RelativeDocumentMoniker": "TokenFolder\\JwtConfig.cs",
               "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\TokenFolder\\JwtConfig.cs",
               "RelativeToolTip": "TokenFolder\\JwtConfig.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABcAAABDAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBJwBcAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:33:45.561Z"
+              "WhenOpened": "2024-07-29T10:33:45.561Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -353,11 +486,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAEwBAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:33:45.566Z"
+              "WhenOpened": "2024-07-29T10:33:45.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\IUserRepository.cs",
@@ -368,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\LoginDTO.cs",
@@ -376,11 +510,12 @@
               "RelativeToolTip": "Models\\DTOs\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:33:45.652Z"
+              "WhenOpened": "2024-07-29T10:33:45.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\githubrepository\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Models\\DTOs\\RegisterDTO.cs",
@@ -391,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Data\\UserRepository.cs",
               "RelativeDocumentMoniker": "Data\\UserRepository.cs",
@@ -399,19 +534,8 @@
               "RelativeToolTip": "Data\\UserRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAnwBAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:33:45.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Daniel Harmasz\\newrepo\\internship2024\\students\\Daniel\\vs\\WebApplication1\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwB8AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T10:33:45.669Z"
+              "WhenOpened": "2024-07-29T10:33:45.664Z",
+              "EditorCaption": ""
             }
           ]
         }

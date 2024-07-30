@@ -1,8 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
-
+import api, {baseURL} from '../../smallApi/axiosApi'
 export const getArtists = createAsyncThunk('artist/fetch', async () => {
-    const Iresponse = await axios.get("http://localhost:5159/api/Artists/GetArtist/")
+    const Iresponse = await api.get(baseURL+"/Artists/GetArtist/")
     return Iresponse.data
 })
 

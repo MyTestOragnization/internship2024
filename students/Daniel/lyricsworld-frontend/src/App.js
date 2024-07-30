@@ -4,6 +4,7 @@ import RegisterPage from './modules/RegisterPage'
 import HomePage from './modules/HomePage'
 import Profile from './modules/Profile'
 import LoginPage from './modules/LoginPage'
+import Artist from './modules/Artist'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route exact path='/login' element={<LoginPage/>} />
       <Route exact path='/profile' element={<Profile />} /> 
       <Route exact path='/albums' element={<Album />} /> 
+      <Route exact path='/artists' element={<Artist />} /> 
     </Routes>
     </Router>
   );
