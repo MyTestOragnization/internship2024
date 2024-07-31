@@ -15,8 +15,12 @@ class Header extends Component {
                 <Link className="coloredbuttontext" to={"/profile"}>Profile</Link>
                 </div>  
             </button>
-            
+            <style>
+                
+            </style>
             </header>
+
+            
         );
     }
 }

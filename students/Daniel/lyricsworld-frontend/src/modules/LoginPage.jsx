@@ -3,7 +3,7 @@ import { useSelector,useDispatch } from 'react-redux';
 import { useNavigate } from "react-router-dom";
 import { Login } from "../store/state/LoginSlice";
 import { changeLogged } from "../store/state/ProfileSlice";
-import LoginPagecss from "../cssformodules/LoginPage.css"
+import LoginPagecss from "../cssformodules/LoginPage.module.css"
 import {Link} from 'react-router-dom'
 
 function RegisterForm() {

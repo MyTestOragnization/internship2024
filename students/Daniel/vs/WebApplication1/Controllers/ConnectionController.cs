@@ -8,17 +8,17 @@ namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ConnectionController : ControllerBase
+    public class ConnectionController : Controller
     {
-        public DbContext DbContext { get; }
+        public DbContextClass DbContext { get; }
         public IConnectRepository Repository { get; }
-        public ConnectionController(DbContext dbContext, IConnectRepository repository)
+        public ConnectionController(DbContextClass dbContext, IConnectRepository repository)
         {
             DbContext = dbContext;
             Repository = repository;
         }
         [HttpGet("GetAll")]
-        public object GetAll()
+        public IEnumerable<ConnectDBtable> GetAll()
         {
             return Repository.GetAll();
         }

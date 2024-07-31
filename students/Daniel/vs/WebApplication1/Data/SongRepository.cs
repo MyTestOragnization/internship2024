@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
+using Microsoft.AspNetCore.Razor.Language;
 using WebApplication1.Models;
 
 namespace WebApplication1.Data
@@ -64,6 +65,12 @@ namespace WebApplication1.Data
                 }
             }
             return false;
+        }
+
+        public IEnumerable<Song> GetSongByTitle(string title)
+        {
+            string lowerTitle = title.ToLower();
+            return DbContext.Songs.Where(song => EF.Functions.Like(song.SongTitle, "%"+lowerTitle+"%")).ToList();
         }
     }
 }

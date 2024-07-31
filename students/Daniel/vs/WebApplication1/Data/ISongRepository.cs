@@ -9,5 +9,7 @@ namespace WebApplication1.Data
         public Song GetSongById(int SongID);
         public bool DeleteSong(int SongID);
         public bool AddNewSong(Song piosenka);
+
+        public IEnumerable<Song> GetSongByTitle(string title);
     }
 }

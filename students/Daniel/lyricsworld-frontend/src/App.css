@@ -54,7 +54,7 @@ main > h1
   -webkit-text-fill-color: transparent;
 
 }
-main > h2 {letter-spacing: -0.04em; font-size: calc(var(--text-size-3xl)*2);}
+main > h2 {letter-spacing: -0.04em; font-size: calc(var(--text-size-3xl)*2); color: black;}
 main > a
 {
   display: flex;

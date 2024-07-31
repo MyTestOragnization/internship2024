@@ -5,6 +5,6 @@ namespace WebApplication1.Data
 {
     public interface IConnectRepository
     {
-        IEnumerable<ArtistAlbumSong> GetAll();
+        IEnumerable<ConnectDBtable> GetAll();
     }
 }

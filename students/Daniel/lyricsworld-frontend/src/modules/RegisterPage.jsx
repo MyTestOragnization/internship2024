@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { render } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
 import {Link} from 'react-router-dom'
-import RegisterPagecss from '../cssformodules/RegisterPage.css'
+import RegisterPagecss from '../cssformodules/RegisterPage.module.css'
 
 function RegisterForm() {
     const dispatch = useDispatch()

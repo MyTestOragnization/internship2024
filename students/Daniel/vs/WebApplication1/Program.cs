@@ -33,13 +33,15 @@ namespace WebApplication1
             });
 
             builder.Services.AddScoped<JwtConfig>();
-
-            builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            string conn =
+                "Server=L-01452019\\SQL2022;Database=LyricsWorld1;Trusted_Connection=True;TrustServerCertificate=True;";
+            builder.Services.AddDbContext<DbContextClass>(options => options.UseSqlServer(conn));
             builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
             builder.Services.AddScoped<IArtistRepository, ArtistRepository>();
             builder.Services.AddScoped<ISongRepository, SongRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            
+            builder.Services.AddScoped<IConnectRepository, ConnectRepository>();
+
             var provider = builder.Services.BuildServiceProvider();
             var configuration = provider.GetService<IConfiguration>();
             builder.Services.AddCors(options =>

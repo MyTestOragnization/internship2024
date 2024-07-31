@@ -50,6 +50,11 @@ namespace WebApplication1.Controllers
             return Repository.EditSong(id, song);
         }
 
+        [HttpGet("GetSongByTitle/{title}")]
+        public IEnumerable<Song> SongByTitle(string title)
+        {
+            return Repository.GetSongByTitle(title);
+        }
 
     }
 }
