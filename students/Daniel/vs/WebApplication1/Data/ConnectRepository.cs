@@ -15,9 +15,23 @@ namespace WebApplication1.Data
         }
         public DbContextClass dbContext { get; }
         
-        public IEnumerable<ConnectDBtable> GetAll()
+        public IEnumerable<ArtistAlbumSong> GetAll()
         {
-            return dbContext.ConnectDb.Include(e=>e.albums).Include(e=>e.song).Include(e=>e.artist).ToList();
+            var query = (from con in dbContext.ConnectDb.ToList()
+                join al in dbContext.Albums.ToList() on con.IDalbum equals al.AlbumID
+                         join sng in dbContext.Songs.ToList() on con.IDsong equals sng.SongID
+                join art in dbContext.Artist.ToList() on con.IDartist equals art.Id
+                select new ArtistAlbumSong()
+                {
+                    AlbumTitle = al.AlbumTitle,
+                    AlbumID = al.AlbumID,
+                    SongTitle = sng.SongTitle,
+                    SongID = sng.SongID,
+                    ArtistName = art.Name,
+                    ArtistID = art.Id
+                });
+            
+            return query;
         }
     }
 }

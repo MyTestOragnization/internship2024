@@ -2,13 +2,19 @@ import React, {Component} from "react";
 import logo from "../media/logo.png"
 import profilePic from "../media/user.svg"
 import css from "../cssformodules/HeaderModule.css"
-import { Link } from "react-router-dom";
-class Header extends Component {
-    render() {
+import { Link, useNavigate } from "react-router-dom";
+
+
+
+
+function Header(){
+    
+        const navigate = useNavigate()
+
         return (
             <header>
             
-            <a href="../App.js" className="HomeButton"><img src={logo} alt="logo of lyricsworld" className="Logo"></img></a>
+            <Link to="/" className="HomeButton"><img src={logo} alt="logo of lyricsworld" className="Logo"></img></Link>
             <button className="ProfileButton">
                 <div className="coloredbutton">
                 <object type="image/svg+xml" data={profilePic}></object>
@@ -22,7 +28,7 @@ class Header extends Component {
 
             
         );
-    }
+    
 }
 
 export default Header

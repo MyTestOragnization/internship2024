@@ -19,6 +19,6 @@ namespace WebApplication1.Models
         public string Photo {  get; set; }
         [Column("ArtistPopularity")]
         public int Popularity {  get; set; }
-        public ICollection<ConnectDBtable> connectDBtable { get; set; } = new List<ConnectDBtable>();
+        //public ICollection<ConnectDBtable> connectDBtable { get; set; } = new List<ConnectDBtable>();
     }
 }

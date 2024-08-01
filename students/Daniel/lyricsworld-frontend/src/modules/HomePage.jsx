@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Header from './Header'
 function HomePage() {
   
@@ -7,7 +8,7 @@ function HomePage() {
         <main>
           <h1>LyricsWorld</h1>
           <h2>Music, the Coolest Language of All</h2>
-          <a>Start Searching</a>
+          <Link to="/songs" id="link">Start Searching</Link>
        
         </main> 
        

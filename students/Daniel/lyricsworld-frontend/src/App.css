@@ -11,6 +11,7 @@
   --text-size-5xl: 2.99rem;
   --text-size-8xl: calc(var(--text-size-5xl)*2)
 }
+
 .App{
   font-size: calc(1rem + 2vw);
   min-height: 100vh;
@@ -18,7 +19,7 @@
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(9, 1fr);
   grid-template-areas: 
-    ".  header header header header header header header header header header header header header header ."
+    "header header header header header header header header header header header header header header header header"
     "main main main main main main main main main main main main main main main main"
     "main main main main main main main main main main main main main main main main"
     "main main main main main main main main main main main main main main main main"
@@ -71,5 +72,30 @@ main > a
   main > h1 {
     font-size: calc(var(--text-size-4xl)*2);
   }
+}
+
+
+
+#link{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('../public/fonts/NotoSansJP-Thin.woff2') format('woff2'),
+      url('../public/fonts/NotoSansJP-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'confetti';
+  src: url('../public/fonts/confetti/Party-Confetti.woff2') format('woff2'),
+  url('../public/fonts/confetti/Party-Confetti.woff') format('woff'),
+  url('../public/fonts/confetti/Party-Confetti.otf') format('otf'),
+  url('../public/fonts/confetti/Party-Confetti.eot') format('eot');
+  font-style: normal;
+  font-weight: 100;
 }
 

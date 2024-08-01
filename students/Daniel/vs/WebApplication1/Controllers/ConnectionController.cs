@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
 using WebApplication1.Models;
+using WebApplication1.Models.DTOs;
 
 namespace WebApplication1.Controllers
 {
@@ -18,7 +19,7 @@ namespace WebApplication1.Controllers
             Repository = repository;
         }
         [HttpGet("GetAll")]
-        public IEnumerable<ConnectDBtable> GetAll()
+        public IEnumerable<ArtistAlbumSong> GetAll()
         {
             return Repository.GetAll();
         }

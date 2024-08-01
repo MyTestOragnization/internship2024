@@ -18,7 +18,7 @@ namespace WebApplication1.Models
         [Required]
         public string AlbumType { get; set; }
 
-        public ICollection<ConnectDBtable> connectDBtable { get; set; } = new List<ConnectDBtable>();
+        //public ICollection<ConnectDBtable> connectDBtable { get; set; } = new List<ConnectDBtable>();
         public Albums() 
         { 
         }

@@ -20,14 +20,14 @@ namespace WebApplication1.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Albums>().HasMany(e => e.connectDBtable).WithOne(e => e.albums)
-                .HasForeignKey(e => e.IDalbum).IsRequired();
+            //modelBuilder.Entity<Albums>().HasMany(e => e.connectDBtable).WithOne(e => e.albums)
+            //    .HasForeignKey(e => e.IDalbum).IsRequired();
 
-            modelBuilder.Entity<Artist>().HasMany(e => e.connectDBtable).WithOne(e => e.artist)
-                .HasForeignKey(e => e.IDartist).IsRequired();
+            //modelBuilder.Entity<Artist>().HasMany(e => e.connectDBtable).WithOne(e => e.artist)
+            //    .HasForeignKey(e => e.IDartist).IsRequired();
 
-            modelBuilder.Entity<Song>().HasMany(e => e.connectDBtable).WithOne(e => e.song)
-                .HasForeignKey(e => e.IDsong).IsRequired();
+            //modelBuilder.Entity<Song>().HasMany(e => e.connectDBtable).WithOne(e => e.song)
+            //    .HasForeignKey(e => e.IDsong).IsRequired();
 
             //modelBuilder.Entity<ConnectDBtable>().HasNoKey();
         }

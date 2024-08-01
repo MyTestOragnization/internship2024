@@ -7,6 +7,7 @@ import LoginPage from './modules/LoginPage'
 import Artist from './modules/Artist'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SongsPage from './modules/SongsPage'
+import Song from './modules/Song'
 function App() {
   
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route exact path='/albums' element={<Album />} /> 
       <Route exact path='/artists' element={<Artist />} /> 
       <Route exact path='/songs' element={<SongsPage   />} /> 
+      <Route path='/song/:id' element={<Song/>} />
     </Routes>
     </Router>
   );
