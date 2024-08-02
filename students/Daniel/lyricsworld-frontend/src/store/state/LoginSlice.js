@@ -25,7 +25,7 @@ export const LoginSlice = createSlice({
     extraReducers: (builder) => {
         builder
         .addCase(Login.pending, () => {console.log("trying to log in")})
-        .addCase(Login.fulfilled, (state, action) => {state.username =action.payload.username;localStorage.setItem('token', action.payload.jwt)})
+        .addCase(Login.fulfilled, (state, action) => {state.username =action.payload.username;localStorage.setItem('token', action.payload.jwt);localStorage.setItem('username', action.payload.username); })
         .addCase(Login.rejected, (state,action)=> {state.error=action.error.message})
     }
 })

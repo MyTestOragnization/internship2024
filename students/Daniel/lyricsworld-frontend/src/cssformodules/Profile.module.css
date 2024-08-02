@@ -1,0 +1,33 @@
+.username
+{
+    font-size: var(--text-size-4xl);
+
+}
+
+.profileheader > * {
+    color:black;
+}
+.profileheader
+{
+    margin: 20px auto;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    min-height: 20vh;
+}
+
+.profilepic{
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.likes{
+    color: black;
+    text-align: center;
+}

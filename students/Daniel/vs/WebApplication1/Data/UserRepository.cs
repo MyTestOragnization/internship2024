@@ -12,14 +12,15 @@ namespace WebApplication1.Data
 
         public DbContextClass DbContext { get; }
 
-        public User GetOneUser(string id)
+        public ProfileDTO GetOneUser(string username)
         {
-            var result = DbContext.Users.Find(id);
+            var result = DbContext.Users.Find(username);
             if (result == null)
             {
                 return null;
             }
-            return result;
+            
+            return new ProfileDTO(){UserLikes = result.likes, UserName = result.username, UserProfilePicture = result.profilePicture, UserRole = result.role};
         }
 
         public bool Login(LoginDTO loginDTO)

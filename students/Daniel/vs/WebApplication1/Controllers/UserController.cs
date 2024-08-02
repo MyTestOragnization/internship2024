@@ -56,8 +56,8 @@ namespace WebApplication1.Controllers
             return BadRequest(new {message="Username and/or password is wrong", status=HttpStatusCode.NotModified});
         }
         [Authorize]
-        [HttpGet("GetUser/{id}")]
-        public User GetOneUser(string username)
+        [HttpGet("GetUser/{username}")]
+        public ProfileDTO GetOneUser(string username)
         {
             return UserRepository.GetOneUser(username);
         }

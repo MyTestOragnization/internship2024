@@ -1,39 +1,28 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
-import { act } from "react";
+import api from "../../smallApi/axiosApi";
 
-const GetProfile = createAsyncThunk('GetProfile/fetch', async (id) => 
+export const GetProfile = createAsyncThunk('GetProfile/fetch', async (username) => 
     {
-        let currId = id
-        const response = axios.get("http://localhost:5159/api/User/GetUser/", {params: {id: currId}})
+        let currId = username
+        const response = await api.get("http://localhost:5159/api/User/GetUser/"+currId)
+        return response.data
     })
 
 export const ProfileSlice = createSlice({
     name: "profile",
     initialState:
     {
-        username: '',
-        isLogged: false,
-        error: '',
-        token: ''
+        userData: {},
+        error: ''
     },
-    reducers: 
-    {
-        changeLogged(state){
-            state.isLogged = !state.isLogged
-        },
-        setUsername(state, action){
-            state.username = action.payload
-        }
-    },
+    
     extraReducers(builder){
         builder
         .addCase(GetProfile.pending, ()=> console.log("pending"))
-        .addCase(GetProfile.fulfilled,(state,action)=> {state.username=action.payload.username})
+        .addCase(GetProfile.fulfilled,(state,action)=> {state.userData=action.payload;})
     }
     
 })
 
 
-export const {changeLogged,setUsername} = ProfileSlice.actions
 export default ProfileSlice.reducer

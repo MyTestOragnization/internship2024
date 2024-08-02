@@ -5,7 +5,7 @@ import RegisterSlice from './state/RegisterSlice.js'
 import ProfileSlice from './state/ProfileSlice.js'
 import LoginSlice from "./state/LoginSlice.js";
 import SongSearchSlice from "./state/SongSearchSlice.js";
-import Song from "../modules/Song.jsx";
+import Song from "./state/OneSong.js";
 export const store = configureStore({
   reducer: {
     Artist: ArtistReducer,

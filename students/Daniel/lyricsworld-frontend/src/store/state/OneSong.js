@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import api from "../../smallApi/axiosApi";
+import { act } from "react";
 
 export const oneSong = createAsyncThunk('oneSong', async (details) => {
 
@@ -13,14 +14,14 @@ export const Song = createSlice({
     name: "oneSong",
     initialState:
     {
-        song: {},
+        data: {},
         error: '',
     },
     extraReducers: (builder) => {
         builder
         .addCase(oneSong.pending, () => {console.log("searching for song")})
-        .addCase(oneSong.fulfilled, (state, action) => {state.song = action.payload})
-        .addCase(oneSong.rejected, (state,action)=> {state.song = {}})
+        .addCase(oneSong.fulfilled, (state, action) => {state.data = action.payload})
+        .addCase(oneSong.rejected, (state,action)=> {state.data = {}; state.error=action.error.message})
     }
 })
 export default Song.reducer

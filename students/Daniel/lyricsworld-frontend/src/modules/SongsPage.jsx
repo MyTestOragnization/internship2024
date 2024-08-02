@@ -1,23 +1,18 @@
 import Header from './Header'
 import css from '../cssformodules/SongsPage.module.css'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import {search, clearSongs} from '../store/state/SongSearchSlice'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 function SongsPage(){
 
     const navigate = useNavigate()
-    const divideLyrics = (string) => 
-    {
-        let tempList = string.split("|")
-        return tempList.map((song) => <div key={song} className={css.lyricsLine}>{song}<br /></div>)
-
-    }
 
     const [value, setValue] = useState('');
     const dispatch = useDispatch()
     const song = useSelector((state) => state.Search)
-
+    
+    
     const handleChange = (e) =>     
     {
         let newvalue = e.target.value
