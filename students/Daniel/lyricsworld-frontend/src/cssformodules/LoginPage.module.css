@@ -1,6 +1,4 @@
 
-
-
 #LoginContainer > *{
     margin: 0;
     padding: 0;
@@ -32,6 +30,7 @@ input[type=text]
     border-radius: 10px;
     height: 50px;
     width: 45vw;
+    color: black;
 }
 
 form{
@@ -42,7 +41,7 @@ form{
     margin-bottom: 10px;
 }
 
-form > input[type=button]
+#formstyle > input[type=button]
 {
     border: none;
     border-radius: 10px ;
@@ -51,6 +50,7 @@ form > input[type=button]
     background-color: white;
     color: var(--main-color);
     font-size: var(--text-size-2xl);
+   
 }
 
 #usernameinput, #passwordinput 

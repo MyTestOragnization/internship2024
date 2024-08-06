@@ -12,8 +12,10 @@ namespace WebApplication1.Models
         [Required]
         [Column("UserPassword")]
         public string password { get; set; }
+
         [Column("UserProfilePicture")]
-        public string profilePicture { get; set; } = String.Empty;
+        public string profilePicture { get; set; } =
+            "https://th.bing.com/th/id/OIP.TmFdrhMS6gzhI-ACF3977wAAAA?rs=1&pid=ImgDetMain";
 
         [Column("UserLikes")] public int likes { get; set; } = 0;
         [Required]

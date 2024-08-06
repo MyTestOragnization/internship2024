@@ -15,7 +15,7 @@ namespace WebApplication1.Models
         [Required]
         public string SongLyrics { get; set; }
         public string SongGenre { get; set; }
-       // public ICollection<ConnectDBtable> connectDBtable { get; set; } = new List<ConnectDBtable>();
+       //public List<ConnectDBtable> connectDBtable { get; set; } = new List<ConnectDBtable>();
     }
 
 }

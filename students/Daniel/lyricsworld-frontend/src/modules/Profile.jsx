@@ -19,14 +19,13 @@ function Profile()
     let username = localStorage.getItem('username')
     const dispatch = useDispatch()
     useEffect(()=>{dispatch(GetProfile(username))}, [])
-    
     const profile = useSelector((state)=>state.Profile).userData
+    
  
-    if(username== null)
+    if(username == null)
     {
-        navigate("/login")
+        return <Navigate to={'/login'}></Navigate>
     }
-
     const logout = () => {localStorage.clear(); navigate("/")}
         
 

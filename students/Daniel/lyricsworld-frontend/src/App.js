@@ -8,6 +8,7 @@ import Artist from './modules/Artist'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SongsPage from './modules/SongsPage'
 import Song from './modules/Song'
+import AllData from './modules/AllData';
 function App() {
   
 
@@ -20,8 +21,10 @@ function App() {
       <Route exact path='/profile' element={<Profile />} /> 
       <Route exact path='/albums' element={<Album />} /> 
       <Route exact path='/artists' element={<Artist />} /> 
-      <Route exact path='/songs' element={<SongsPage   />} /> 
+      <Route exact path='/songs' element={<SongsPage />} /> 
+      <Route exact path='/allData' element={<AllData />} /> 
       <Route path='/song/:id' element={<Song/>} />
+      
     </Routes>
     </Router>
   );

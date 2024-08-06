@@ -29,7 +29,7 @@ namespace WebApplication1.Data
             //modelBuilder.Entity<Song>().HasMany(e => e.connectDBtable).WithOne(e => e.song)
             //    .HasForeignKey(e => e.IDsong).IsRequired();
 
-            //modelBuilder.Entity<ConnectDBtable>().HasNoKey();
+
         }
     }
     

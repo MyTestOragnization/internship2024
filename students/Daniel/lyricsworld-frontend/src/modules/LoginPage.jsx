@@ -37,7 +37,7 @@ return(
         </svg>
         </Link>
     <h1>Login</h1>
-        <form>
+        <form id={css.formstyle}>
             <div id={css.usernameinput}>
             <label htmlFor="username">Username</label>
             <input type="text" name="username" onChange={handleChange}/>

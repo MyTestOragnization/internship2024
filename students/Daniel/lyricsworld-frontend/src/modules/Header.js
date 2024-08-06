@@ -12,7 +12,7 @@ function Header(){
         const navigate = useNavigate()
 
         return (
-            <header>
+            <header id={css.header}>
             
             <Link to="/" className={css.HomeButton}><img src={logo} alt="logo of lyricsworld" className={css.Logo}></img></Link>
             <button className={css.ProfileButton}>

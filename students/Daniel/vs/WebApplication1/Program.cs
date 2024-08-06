@@ -3,6 +3,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Text.Json.Serialization;
 using WebApplication1.Data;
 using WebApplication1.TokenFolder;
 
@@ -17,7 +18,10 @@ namespace WebApplication1
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+            });
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
@@ -53,6 +57,7 @@ namespace WebApplication1
                     builder.WithOrigins(frontend_url).AllowAnyMethod().AllowAnyHeader();
                 });
             });
+           
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

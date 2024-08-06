@@ -2,11 +2,12 @@
 {
     public class ArtistAlbumSong
     {
-        public string ArtistName { get; set; }
+        public int ConnID { get; set; }
+        public Artist artist { get; set; }
         public int ArtistID { get; set; }
-        public string SongTitle { get; set; }
+        public Song song { get; set; }
         public int SongID { get; set; }
-        public string AlbumTitle { get; set; }
+        public Albums album { get; set; }
         public int AlbumID { get;set; }
     }
 }

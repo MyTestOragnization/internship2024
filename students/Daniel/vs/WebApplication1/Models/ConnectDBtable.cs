@@ -12,19 +12,17 @@ namespace WebApplication1.Models
         [Required]
         [ForeignKey("FK_IDalbumToAlbum")]
         public int IDalbum { get; set; }
-
-        // public Albums albums { get; set; } = null!;
+        public Albums albums { get; set; } = null!;
 
         [Required]
         [ForeignKey("FK_IDartistToArtist")]
         public int IDartist { get; set; }
 
-        //public Artist artist { get; set; } = null!;
+        public Artist artist { get; set; } = null!;
         [Required]
         [ForeignKey("FK_IDsongToSongs")]
         public int IDsong { get; set; }
-        
-        //  public Song song { get; set; } = null!;
+        public Song song { get; set; } = null!;
 
     }
 }

@@ -6,6 +6,8 @@ import ProfileSlice from './state/ProfileSlice.js'
 import LoginSlice from "./state/LoginSlice.js";
 import SongSearchSlice from "./state/SongSearchSlice.js";
 import Song from "./state/OneSong.js";
+import ConnectDB from "./state/Connect.js";
+
 export const store = configureStore({
   reducer: {
     Artist: ArtistReducer,
@@ -14,5 +16,6 @@ export const store = configureStore({
     Profile: ProfileSlice,
     Login: LoginSlice,
     Search: SongSearchSlice,
-    Song: Song
+    Song: Song,
+    ConnectDB: ConnectDB
 }});

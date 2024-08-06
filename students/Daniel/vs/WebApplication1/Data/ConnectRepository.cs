@@ -11,26 +11,27 @@ namespace WebApplication1.Data
 
         public ConnectRepository(DbContextClass dbContext)
         {
-            dbContext = dbContext;
+           this.dbContext = dbContext;
         }
         public DbContextClass dbContext { get; }
         
         public IEnumerable<ArtistAlbumSong> GetAll()
         {
-            var query = (from con in dbContext.ConnectDb.ToList()
-                join al in dbContext.Albums.ToList() on con.IDalbum equals al.AlbumID
-                         join sng in dbContext.Songs.ToList() on con.IDsong equals sng.SongID
-                join art in dbContext.Artist.ToList() on con.IDartist equals art.Id
+            var query = (from con in dbContext.ConnectDb
+                join al in dbContext.Albums on con.IDalbum equals al.AlbumID
+                         join sng in dbContext.Songs on con.IDsong equals sng.SongID
+                join art in dbContext.Artist on con.IDartist equals art.Id
                 select new ArtistAlbumSong()
                 {
-                    AlbumTitle = al.AlbumTitle,
+                    ConnID = con.ConnID,
+                    album = al,
                     AlbumID = al.AlbumID,
-                    SongTitle = sng.SongTitle,
+                    song = sng,
                     SongID = sng.SongID,
-                    ArtistName = art.Name,
+                    artist= art,
                     ArtistID = art.Id
                 });
-            
+          //  var query = dbContext.ConnectDb.Include(s => s.song).Include(al => al.albums).Include(ar => ar.artist).ToList();
             return query;
         }
     }
